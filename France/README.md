@@ -2,7 +2,7 @@
 
 Projects developed to run in France.<br />
 
-* MEID<br />
+- MEID<br />
 [Website Link Here](https://meidmovement.fr/)<br />
 [Project Code Here](https://github.com/gsweissheimer/portfolio/tree/master/France/MEID%20FR)
 
