@@ -1,6 +1,6 @@
 # USA Projects
 
-Projects developed to run in USA.
+Projects developed to run in France.
 
 
 
