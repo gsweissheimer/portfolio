@@ -2,12 +2,12 @@
 
 Projects developed to run in USA.<br />
 
-* Swiss Dental Invest
-[Website Link Here](https://swissdentalinvest.com)
+* Swiss Dental Invest<br />
+[Website Link Here](https://swissdentalinvest.com)<br />
 [Project Code Here](https://github.com/gsweissheimer/portfolio/tree/master/USA/Swiss%20Dental%20Invest)
 
-* Swiss Dental Consulting
-[Website Link Here](https://swissdentaconsulting.com)
+* Swiss Dental Consulting<br />
+[Website Link Here](https://swissdentaconsulting.com)<br />
 [Project Code Here](https://github.com/gsweissheimer/portfolio/tree/master/USA/Swiss%20Dental%20Consulting)
 
 <br /><br />Thank you for your appreciation!
