@@ -15,9 +15,6 @@ I work as a service provider, PJ, and make myself available if they need to plan
 Thank you for your appreciation!Thank you for your appre!
 
 **Weissheimer, Guilherme.**
-
 **+55 16 99751 5525**
-
 **guilherme@arborweb.com.br**
-
 [Linkedin](https://www.linkedin.com/in/guilherme-weissheimer-400868131/?locale=en_US)
