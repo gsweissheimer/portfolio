@@ -5,7 +5,7 @@
 <br />
 
 Project is a second version developed with Bootstrap by the clients choice. I work and coordenate four professionals and the project was planning and executed in 35 hours.
-<br />- [First Version](https://meid-center.com/)
+<br /><ul><li>[First Version](https://meid-center.com/)</li></ul>
 <br />
 
 > 
