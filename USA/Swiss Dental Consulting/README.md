@@ -1,12 +1,14 @@
-# USA Projects
+# Swiss Dental Consulting
 
-Projects developed to run in England.
+## [Website](http://swissdentalconsulting.com)
 
+###### Swiss Dental Consulting is a consultancy specialized in the field of oral health with experience in driving the growth of dental clinics. We handle the training of your team and the entire management of the clinic to provide growth for your business.
 
+Project developed with PHP, JavaScript, HTML and CSS. I work and coordenate four professionals and the project was planning and executed in 190 hours.
 
-Thank you for your appreciation!Thank you for your appre!
+<br /><br />Thank you for your appreciation!
 
-Weissheimer, Guilherme.
-+55 16 99751 5525
-guilherme@arborweb.com.br
-[Linkedin](https://www.linkedin.com/in/guilherme-weissheimer-400868131/?locale=en_US)
+Weissheimer, Guilherme.<br />
++55 16 99751 5525<br />
+guilherme@arborweb.com.br<br />
+[Linkedin Profile](https://www.linkedin.com/in/guilherme-weissheimer-400868131/?locale=en_US)
