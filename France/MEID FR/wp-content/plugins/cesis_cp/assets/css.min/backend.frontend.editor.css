@@ -1,0 +1,671 @@
+@-webkit-keyframes cp_loadingspinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes cp_loadingspinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+body.cesis_TM--admin-inline-editor-page {
+    background-color: #23282d
+}
+
+body.cesis_TM--admin-inline-editor-page .vc_message {
+    background-color: transparent !important;
+    text-align: left;
+    width: 330px;
+    color: white;
+    left: 185px;
+    top: 17px;
+    border: none;
+    padding-left: 30px;
+    letter-spacing: 0.5px;
+    z-index: 1050 !important
+}
+
+body.cesis_TM--admin-inline-editor-page .vc_message a {
+    color: white;
+    font-weight: 600
+}
+
+body.cesis_TM--admin-inline-editor-page .vc_message::before {
+    content: "\f347";
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    color: white;
+    font-family: "Ionicons";
+    font-size: 16px
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content #vc_preloader {
+    opacity: 1
+}
+
+
+
+
+@-webkit-keyframes fullscreen-mode-animation {
+    0% {
+        opacity: 1
+    }
+    50% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes fullscreen-mode-animation {
+    0% {
+        opacity: 1
+    }
+    50% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content #vc_navbar ul.vc_navbar-nav li .cesis_TM--header-button.-blocks-btn .-spinner {
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    width: 14px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    top: calc(50% - 14px / 2);
+    left: calc(50% - 14px / 2);
+    opacity: 1;
+    border: solid 2px #5caffd;
+    border-top-color: #fff;
+    border-left-color: #fff;
+    border-radius: 10px;
+    -webkit-animation: cp_loadingspinner 0.5s linear infinite;
+    animation: cp_loadingspinner 0.5s linear infinite;
+    top: calc(50% - 6px);
+    left: calc(50% - 7px);
+    z-index: 1;
+    opacity: 0
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content #vc_navbar ul.vc_navbar-nav li .cesis_TM--header-button.-blocks-btn .-spinner.hidde {
+    display: none
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content #vc_navbar ul.vc_navbar-nav li .cesis_TM--header-button.-blocks-btn svg {
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    top: calc( 50% - 14px / 2);
+    left: calc( 50% - 20px / 2);
+    -webkit-transform: none;
+    transform: none
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content #vc_navbar ul.vc_navbar-nav li .cesis_TM--header-button.-blocks-btn.-loading .-spinner {
+    opacity: 1
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content #vc_navbar ul.vc_navbar-nav li .cesis_TM--header-button.-blocks-btn.-loading svg {
+    opacity: 0.2
+}
+.vc_navbar .vc_icon-btn#cesis_TM-button--show-blocks-list{
+    box-shadow: none !important;
+    display: block;
+    width: 60px;
+    height: 55px;
+    cursor: pointer;
+    outline: 0;
+    padding: 0 !important;
+    position: relative;
+    text-align: center;
+    line-height: 51px;
+    padding: 0 !important;
+}
+#cesis_TM-button--show-blocks-list .cesis_TM--icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+}
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates {
+    -webkit-transition: left 0.8s cubic-bezier(0.77, 0, 0.175, 1), -webkit-transform 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+    transition: left 0.8s cubic-bezier(0.77, 0, 0.175, 1), -webkit-transform 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+    transition: transform 0.8s cubic-bezier(0.77, 0, 0.175, 1), left 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+    transition: transform 0.8s cubic-bezier(0.77, 0, 0.175, 1), left 0.8s cubic-bezier(0.77, 0, 0.175, 1), -webkit-transform 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+    position: fixed;
+    left: 70px;
+    top: 140px;
+    height: calc(100vh - 140px);
+    display: block;
+    z-index: 1028;
+    float: left
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates *:focus {
+    outline: none !important;
+    box-shadow: none
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .-main-nav {
+    -webkit-transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+    width: 220px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+    -webkit-transform: translateX(20px);
+    transform: translateX(20px);
+    text-align: left
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .-main-nav>p {
+    font-size: 13px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    margin-bottom:  20px;
+    letter-spacing: 0.5px;
+    width: 100%
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .-main-nav a {
+    color: white;
+    font-size: 15px;
+    display: table;
+    text-transform: none;
+    padding: 0;
+    margin: 0;
+    -webkit-transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    margin-bottom: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    float: initial
+}
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .-main-nav a:hover {
+    padding-left: 15px;
+    -webkit-transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .-main-nav a::before {
+    -webkit-transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 18px;
+    background-color: #5caffd;
+    display: block;
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .-main-nav a span {
+    position: absolute;
+    top: 2px;
+    left: -60px;
+    width: 60px;
+    text-align: right;
+    height: 15px
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .-main-nav a span p {
+    font-size: 9px;
+    line-height: 10px;
+    text-align: right;
+    padding: 3px 8px 2px 8px;
+    border-radius: 20px;
+    font-weight: 600;
+    display: inline-block;
+    margin: 0;
+    float: right;
+    margin-right: 7px
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .-main-nav a span p.-soon {
+    background-color: #2e3038
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .-main-nav a span p.-new {
+    background-color: #fcc218
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .-main-nav a:hover::before {
+    width: 5px;
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container {
+    height: auto;
+    display: inline-block;
+    margin-left: 70px;
+    vertical-align: top;
+    visibility: hidden;
+    opacity: 0
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .-header-sub-nav {
+    padding: 0 50px;
+    text-align: left
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .-header-sub-nav>a {
+    color: white;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    padding-right: 5px;
+    -webkit-transform: translateX(-30px);
+    transform: translateX(-30px);
+    float: left
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .-header-sub-nav>a i {
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .-header-sub-nav>a i:first-of-type {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 12px;
+    height: 19px;
+    color: #5caffd;
+    font-size: 18px
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .-header-sub-nav>a i:last-of-type {
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    background-color: #5caffd;
+    width: 46px;
+    height: 2px
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .-header-sub-nav>a p {
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+    font-size: 16px;
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+    text-decoration: none;
+    font-weight: 400
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .-header-sub-nav>a:hover i:first-of-type {
+    left: -10px
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .-header-sub-nav>a:hover i:last-of-type {
+    width: 56px
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper {
+    width: 220px;
+    display: block;
+    height: calc(100vh - 239px);
+    overflow: scroll;
+    padding: 0 50px 30px 50px;
+    margin-top: 10px;
+    float: left
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list {
+    padding-top: 30px;
+    display: none
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>p {
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    position: absolute;
+    top: 1px;
+    right: 50px
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>span {
+    position: absolute;
+    top: 48px;
+    right: 20px;
+    width: 280px;
+    height: 30px;
+    z-index: 3;
+    display: block;
+    background: -webkit-linear-gradient(top, #23282d 4%, #23282d 13%, rgba(82, 84, 94, 0) 100%);
+    background: linear-gradient(to bottom, #23282d 4%, #23282d 13%, rgba(82, 84, 94, 0) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#23282d', endColorstr='#003d3e48', GradientType=0)
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a {
+    -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+    margin-bottom: 15px;
+    display: block;
+    z-index: 1;
+    position: relative
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a img {
+    -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    width: 100%;
+    overflow: hidden;
+    border-radius: 2px;
+    display: block;
+    -webkit-transform: scale(1);
+    transform: scale(1)
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a .-add-block {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    z-index: 3;
+    position: absolute;
+    top: calc( 50% - 50px / 2);
+    left: calc( 50% - 50px / 2)
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a .-add-block::before {
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    opacity: 0;
+    position: absolute;
+    top: calc( 50% - 20px / 2);
+    left: calc( 50% - 20px / 2);
+    z-index: 5;
+    display: block
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a .-add-block::after {
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    content: " ";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #5caffd;
+    border-radius: 50%;
+    z-index: -1;
+    -webkit-transform: scale(0);
+    transform: scale(0)
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a .-spinner {
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    width: 12px;
+    height: 12px;
+    display: block;
+    position: absolute;
+    top: calc(50% - 12px / 2);
+    left: calc(50% - 12px / 2);
+    opacity: 1;
+    border: solid 2px #5caffd;
+    border-top-color: #fff;
+    border-left-color: #fff;
+    border-radius: 10px;
+    -webkit-animation: cp_loadingspinner 0.5s linear infinite;
+    animation: cp_loadingspinner 0.5s linear infinite;
+    top: calc(50% - 8px);
+    left: calc(50% - 8px);
+    z-index: 3;
+    opacity: 0
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a .-spinner.hidde {
+    display: none
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a .-added {
+    -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    position: absolute;
+    top: calc( 50% - 35px / 2);
+    left: calc( 50% - 35px / 2);
+    opacity: 0;
+    width: 35px;
+    height: 35px;
+    top: calc(50% - 35px / 2);
+    left: calc(50% - 35px / 2);
+    z-index: 3;
+    opacity: 0
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a .-added::before {
+    -webkit-transition: opacity 0.4s cubic-bezier(0.19, 1, 0.22, 1), width 0.5s cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+    transition: opacity 0.4s cubic-bezier(0.19, 1, 0.22, 1), width 0.5s cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    opacity: 0;
+    content: " ";
+    height: 3px;
+    width: 0;
+    position: absolute;
+    top: 15px;
+    left: 11px;
+    z-index: 1;
+    background-color: #fff;
+    border-radius: 20px
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a .-added::after {
+    -webkit-transition: opacity 0.4s cubic-bezier(0.19, 1, 0.22, 1), width 0.5s cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+    transition: opacity 0.4s cubic-bezier(0.19, 1, 0.22, 1), width 0.5s cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+    -webkit-transform-origin: bottom left;
+    transform-origin: bottom left;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    opacity: 0;
+    content: " ";
+    height: 3px;
+    width: 0;
+    position: absolute;
+    top: 21px;
+    left: 16px;
+    z-index: 1;
+    background-color: #fff;
+    border-radius: 20px
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a:hover,
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a.-loading,
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a.-added {
+    z-index: 2;
+    box-shadow: 0 40px 86px -30px rgba(0, 0, 0, 0.8)
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a:hover img,
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a.-loading img,
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a.-added img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a:hover .-add-block::before,
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a.-loading .-add-block::before,
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a.-added .-add-block::before {
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+    opacity: 1
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a:hover .-add-block::after,
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a.-loading .-add-block::after,
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a.-added .-add-block::after {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a.-loading {
+    pointer-events: none;
+    box-shadow: 0 40px 86px -30px transparent
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a.-loading img {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a.-loading .-add-block::before {
+    opacity: 0
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a.-loading .-add-block::after {
+    width: 42px;
+    height: 42px;
+    left: 4px;
+    top: 4px
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a.-loading .-spinner {
+    opacity: 1;
+    visibility: visible
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a.-added .-spinner {
+    opacity: 0;
+    visibility: hidden
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a.-added .-added {
+    opacity: 1;
+    visibility: visible
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a.-added .-added::before {
+    width: 9px;
+    opacity: 1
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list>a.-added .-added::after {
+    width: 15px;
+    opacity: 1
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container .cesis_templates_list_wrapper .cesis_templates_list.-show-me {
+    display: block
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates .cesis_templates_container.-show-me {
+    visibility: visible;
+    opacity: 1
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_TM--close-block-overlayer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 130px;
+    background-color: transparent;
+    visibility: hidden;
+    z-index: 1040
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_TM--close-block-overlayer.-show-me {
+    visibility: visible
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates.-show-me .-main-nav {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px)
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_templates.-show-categories {
+    left: -273px;
+    visibility: visible;
+    opacity: 1
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content #cesis_vc_inlineframe_overwrap {
+    -webkit-transition: -webkit-transform 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+    transition: -webkit-transform 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+    transition: transform 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+    transition: transform 0.8s cubic-bezier(0.77, 0, 0.175, 1), -webkit-transform 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+    z-index: 1029;
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    width: 100%;
+    padding: 0 25px 25px 25px;
+    float: left
+}
+
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content #cesis_vc_inlineframe_overwrap #vc_inline-frame-wrapper {
+    border-radius: 5px;
+    box-shadow: 0px 20px 30px 4px rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+    width: calc( 100% - 25px * 2);
+    position: relative;
+    top: 0px !important;
+    background: #23282d;
+    float: inherit
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content #cesis_vc_inlineframe_overwrap #vc_inline-frame-wrapper iframe {
+    height: calc( 100vh - 100px) !important
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content #cesis_vc_inlineframe_overwrap.-reveals-blocks-list-nav {
+    -webkit-transform: translateX(280px);
+    transform: translateX(280px)
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content #cesis_vc_inlineframe_overwrap.-reveals-blocks-list-nav.-reveals-blocks-list-group {
+    -webkit-transform: translateX(320px);
+    transform: translateX(320px)
+}
+
+body.cesis_TM--admin-inline-editor-page #wpwrap #wpbody #wpbody-content .cesis_TM--editor-mask {
+    position: fixed;
+    background: #23282d;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1025
+}

@@ -1,0 +1,533 @@
+# Translation of Themes - Twenty Twenty in Norwegian (Bokmål)
+# This file is distributed under the same license as the Themes - Twenty Twenty package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-11-13 10:44:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: nb_NO\n"
+"Project-Id-Version: Themes - Twenty Twenty\n"
+
+#. Description of the theme
+msgid "Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors."
+msgstr "Vårt standardtema for 2020 er designet for å fullt utnytte fleksibiliteten til blokkredigeringsverktøyet. Organisasjoner og firmaer har muligheten til å lage dynamiske landingssider med uendelige muligheter for oppsett ved å bruke gruppe- og kolonneblokker. Den sentrerte innholdskolonnen og finjusterte typografien gjør det også perfekt for tradisjonelle blogger. Komplette stiler i redigeringsverktøyet gir deg en god idé om hvordan innholdet ditt vil se ut, selv før du publiserer. Du kan gi nettsiden din et personlig preg ved å bytte bakgrunnsfarge og aksentfarge i Tilpasseren. Fargene på alle elementene på nettsiden blir automatisk utregnet basert på fargene du velger, noe som sikrer en høy, tilgjengelig fargekontrast for dine besøkende."
+
+#. Theme Name of the theme
+msgid "Twenty Twenty"
+msgstr "Twenty Twenty"
+
+#: template-parts/entry-author-bio.php:29
+msgid "View Archive <span aria-hidden=\"true\">&rarr;</span>"
+msgstr "Se arkiv <span aria-hidden=\"true\">&rarr;</span>"
+
+#: inc/starter-content.php:38
+msgctxt "Theme starter content"
+msgid "The New UMoMA Opens its Doors"
+msgstr "Den nye UMoMA åpner sine dører"
+
+#: inc/template-tags.php:387
+msgctxt "A string that is output before one or more categories"
+msgid "In"
+msgstr "I"
+
+#: inc/starter-content.php:84 inc/starter-content.php:116
+msgid "October 1 -- December 1"
+msgstr "1. oktober -- 1. desember"
+
+#: inc/starter-content.php:72 inc/starter-content.php:87
+#: inc/starter-content.php:104 inc/starter-content.php:119
+msgid "Read More"
+msgstr "Les mer"
+
+#: inc/starter-content.php:69 inc/starter-content.php:101
+msgid "August 1 -- December 1"
+msgstr "1. august -- 1. desember"
+
+#: inc/starter-content.php:66
+msgid "Works and Days"
+msgstr "Verker og dager"
+
+#: classes/class-twentytwenty-customize.php:126
+msgid "Custom"
+msgstr "Tilpasset"
+
+#: classes/class-twentytwenty-customize.php:125
+msgid "Default"
+msgstr "Standard"
+
+#: inc/starter-content.php:150
+msgid "Join the Club"
+msgstr "Bli med i klubben"
+
+#: inc/starter-content.php:113
+msgid "From Signac to Matisse"
+msgstr "Fra Signac til Matisse"
+
+#: inc/starter-content.php:98
+msgid "The Life I Deserve"
+msgstr "Det livet jeg fortjener"
+
+#: inc/starter-content.php:81
+msgid "Theatre of Operations"
+msgstr "Operasjonsteater"
+
+#: classes/class-twentytwenty-customize.php:374
+msgid "Overlay Opacity"
+msgstr "Ugjennomsiktighet av overlegg"
+
+#: classes/class-twentytwenty-customize.php:354
+msgid "The color used for the text in the overlay."
+msgstr "Fargen brukt på teksten i overlegget."
+
+#: classes/class-twentytwenty-customize.php:353
+msgid "Overlay Text Color"
+msgstr "Tekstfarge for overlegg"
+
+#: classes/class-twentytwenty-customize.php:332
+msgid "The color used for the overlay. Defaults to the accent color."
+msgstr "Fargen brukt på overlegget. Standard er samme som aksentfargen."
+
+#: classes/class-twentytwenty-customize.php:331
+msgid "Overlay Background Color"
+msgstr "Bakgrunnsfarge for overlegg"
+
+#: inc/starter-content.php:47
+msgid "The New UMoMA Opens its Doors"
+msgstr "Den nye UMoMA åpner sine dører"
+
+#: classes/class-twentytwenty-customize.php:123
+msgid "Primary Color"
+msgstr "Primærfarge"
+
+#: inc/starter-content.php:55
+msgid "The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months."
+msgstr "Hovedattraksjonen for moderne kunst i Nord-Sverige. Åpen fra 10 til 18 hver dag i sommermånedene."
+
+#: classes/class-twentytwenty-customize.php:262
+msgid "Settings for the \"Cover Template\" page template. Add a featured image to use as background."
+msgstr "Innstilllinger for sidemalen \"Omslagsmal\". Legg til ett fremhevet bilde å bruke som bakgrunn."
+
+#: classes/class-twentytwenty-customize.php:183
+msgid "Apply a custom color for links, buttons, featured images."
+msgstr "Bruk en tilpasset farge for lenker, knapper og fremhevede bilder."
+
+#: inc/starter-content.php:144
+msgid "Become a Member and Get Exclusive Offers!"
+msgstr "Bli medlem og motta eksklusive tilbud!"
+
+#: inc/starter-content.php:147
+msgid "Members get access to exclusive exhibits and sales. Our memberships cost $99.99 and are billed annually."
+msgstr "Medlemmer får tilgang til eksklusive utstillinger og salg. Våre medlemsskap koster $99.99 og blir fakturert årlig."
+
+#: inc/starter-content.php:136
+msgid "The exhibitions are produced by UMoMA in collaboration with artists and museums around the world and they often attract international attention. UMoMA has received a Special Commendation from the European Museum of the Year, and was among the top candidates for the Swedish Museum of the Year Award as well as for the Council of Europe Museum Prize."
+msgstr "Utstillingene produseres av UMoMA i samarbeid med kunstnere og museer rundt i verden og de får ofte internasjonal oppmerksomhet. UMoMA har mottatt en «Special Commendation» fra «Årets europeiske museum», og var blant toppkandidatene til å bli «Årets svenske museum» og også for Europarådets museumspris."
+
+#: inc/starter-content.php:129
+msgid "”Cyborgs, as the philosopher Donna Haraway established, are not reverent. They do not remember the cosmos.”"
+msgstr "«Kyborger har, som etablert av filosofen Donna Haraway, ikke ærefrykt. De husker ikke kosmos.»"
+
+#: inc/starter-content.php:133
+msgid "With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political and philosophical issues are intrinsic to our programme. As visitor you are invited to guided tours artist talks, lectures, film screenings and other events with free admission"
+msgstr "I sine syv etasjer med imponerende arkitektur viser UMoMA utstillinger med internasjonal samtidskunst, noen ganger sammen med kunsthistorisk retrospektiv. Eksistensielle, politiske og filosofiske spørsmål er en iboende del av vårt program. Som besøkende er du invitert til guidede turer, kunstnersamtaler, foredrag, filmvisning og andre arrangement med gratis inngang"
+
+#: searchform.php:24 template-parts/modal-search.php:20
+msgid "Search for:"
+msgstr "Søk etter:"
+
+#: index.php:99
+msgid "search again"
+msgstr "søk igjen"
+
+#. translators: %s: Number of search results
+#: index.php:39
+msgid "We found %s result for your search."
+msgid_plural "We found %s results for your search."
+msgstr[0] "Vi fant %s resultat for ditt søk."
+msgstr[1] "Vi fant %s resultater for ditt søk."
+
+#. translators: %s: HTML character for up arrow
+#: footer.php:49
+msgid "Up %s"
+msgstr "Opp %s"
+
+#. translators: %s: HTML character for up arrow
+#: footer.php:43
+msgid "To the top %s"
+msgstr "Til toppen %s"
+
+#. translators: Copyright date format, see https://secure.php.net/date
+#: footer.php:25
+msgctxt "copyright date format"
+msgid "Y"
+msgstr "Y"
+
+#: 404.php:24
+msgid "404 not found"
+msgstr "404 ikke funnet"
+
+#. Translators: 1 = comment date, 2 = comment time
+#: classes/class-twentytwenty-walker-comment.php:69
+msgid "%1$s at %2$s"
+msgstr "%1$s kl %2$s"
+
+#: classes/class-twentytwenty-walker-comment.php:77
+msgid "Edit"
+msgstr "Rediger"
+
+#: classes/class-twentytwenty-walker-comment.php:92
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar venter på moderering."
+
+#: comments.php:34
+msgid "Leave a comment"
+msgstr "Legg igjen en kommentar"
+
+#. translators: %s: post title
+#: comments.php:37
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr "Ett svar til &ldquo;%s&rdquo;"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s svar til &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s svar til &ldquo;%2$s&rdquo;"
+
+#: comments.php:88
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: comments.php:127
+msgid "Comments are closed."
+msgstr "Det er stengt for kommentarer."
+
+#: inc/starter-content.php:176 inc/starter-content.php:186 functions.php:491
+msgid "Primary"
+msgstr "Primær"
+
+#: inc/starter-content.php:196
+msgid "Social Links Menu"
+msgstr "Sosiale medier-meny"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:206
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Rediger <span class=\"screen-reader-text\">%s</span>"
+
+#: functions.php:258
+msgid "Footer Menu"
+msgstr "Meny i sidebunnen"
+
+#: template-parts/content.php:48 template-parts/content-cover.php:138
+msgid "Pages:"
+msgstr "Sider:"
+
+#: template-parts/footer-menus-widgets.php:37
+msgid "Footer"
+msgstr "Sidebunn"
+
+#: template-parts/content.php:48 template-parts/content-cover.php:138
+msgid "Page"
+msgstr "Side"
+
+#: functions.php:496
+msgid "Secondary"
+msgstr "Sekundær"
+
+#. Template Name of the theme
+msgid "Full Width Template"
+msgstr "Mal for full bredde"
+
+#: template-parts/pagination.php:25
+msgid "Older <span class=\"nav-short\">Posts</span>"
+msgstr "Eldre <span class=\"nav-short\">innlegg</span>"
+
+#: template-parts/pagination.php:21
+msgid "Newer <span class=\"nav-short\">Posts</span>"
+msgstr "Nyere <span class=\"nav-short\">innlegg</span>"
+
+#: template-parts/navigation.php:25
+msgid "Post"
+msgstr "Innlegg"
+
+#: template-parts/modal-search.php:26
+msgid "Close search"
+msgstr "Lukk søk"
+
+#: template-parts/modal-menu.php:73
+msgid "Mobile"
+msgstr "Mobil"
+
+#: template-parts/modal-menu.php:48
+msgid "Expanded"
+msgstr "Utvidet"
+
+#: template-parts/modal-menu.php:21
+msgid "Close Menu"
+msgstr "Lukk meny"
+
+#: template-parts/footer-menus-widgets.php:57
+msgid "Social links"
+msgstr "Sosiale lenker"
+
+#. translators: %s: Author name
+#: template-parts/entry-author-bio.php:20 inc/template-tags.php:348
+msgid "By %s"
+msgstr "Av %s"
+
+#: searchform.php:27
+msgctxt "submit button"
+msgid "Search"
+msgstr "Søk"
+
+#: searchform.php:25
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Søk &hellip;"
+
+#: index.php:48
+msgid "We could not find any results for your search. You can give it another try through the search form below."
+msgstr "Vi kunne ikke finne noen resultater for ditt søk. Du kan prøve igjen ned søkeskjemaet nedenfor."
+
+#: index.php:32
+msgid "Search:"
+msgstr "Søk:"
+
+#: inc/template-tags.php:439
+msgid "Sticky post"
+msgstr "Klebrig innlegg"
+
+#: inc/template-tags.php:401
+msgid "Tags"
+msgstr "Stikkord"
+
+#: template-parts/entry-header.php:36 template-parts/content-cover.php:70
+#: inc/template-tags.php:383
+msgid "Categories"
+msgstr "Kategorier"
+
+#: inc/template-tags.php:365
+msgid "Post date"
+msgstr "Publiseringsdato"
+
+#: inc/template-tags.php:341
+msgid "Post author"
+msgstr "Innleggsforfatter"
+
+#: header.php:88
+msgid "Horizontal"
+msgstr "Horisntal"
+
+#: header.php:76 header.php:137
+msgid "Menu"
+msgstr "Meny"
+
+#: header.php:53 header.php:157
+msgid "Search"
+msgstr "Søk"
+
+#: template-parts/content.php:36
+msgid "Continue reading"
+msgstr "Fortsett å lese"
+
+#: functions.php:548
+msgctxt "Short name of the larger font size in the block editor."
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:547
+msgctxt "Name of the larger font size in the block editor"
+msgid "Larger"
+msgstr "Større"
+
+#: functions.php:542
+msgctxt "Short name of the large font size in the block editor."
+msgid "L"
+msgstr "L"
+
+#: functions.php:541
+msgctxt "Name of the large font size in the block editor"
+msgid "Large"
+msgstr "Stor"
+
+#: functions.php:536
+msgctxt "Short name of the regular font size in the block editor."
+msgid "M"
+msgstr "M"
+
+#: functions.php:535
+msgctxt "Name of the regular font size in the block editor"
+msgid "Regular"
+msgstr "Vanlig"
+
+#: functions.php:530
+msgctxt "Short name of the small font size in the block editor."
+msgid "S"
+msgstr "S"
+
+#: functions.php:529
+msgctxt "Name of the small font size in the block editor"
+msgid "Small"
+msgstr "Liten"
+
+#: functions.php:514
+msgid "Background Color"
+msgstr "Bakgrunnsfarge"
+
+#: functions.php:486
+msgid "Accent Color"
+msgstr "Aksentfarge"
+
+#: functions.php:259
+msgid "Social Menu"
+msgstr "Sosial meny"
+
+#: functions.php:257
+msgid "Mobile Menu"
+msgstr "Meny for mobilelefon"
+
+#: functions.php:256
+msgid "Desktop Expanded Menu"
+msgstr "Utvidet meny for skrivebord"
+
+#: functions.php:255
+msgid "Desktop Horizontal Menu"
+msgstr "Horisontal meny for skrivebord"
+
+#: footer.php:33
+msgid "Powered by WordPress"
+msgstr "Drevet av WordPress"
+
+#: comments.php:75
+msgid "Older Comments"
+msgstr "Eldre kommentarer"
+
+#: comments.php:74
+msgid "Newer Comments"
+msgstr "Nyere kommentarer"
+
+#: classes/class-twentytwenty-walker-page.php:134 inc/template-tags.php:545
+msgid "Show sub menu"
+msgstr "Vis undermeny"
+
+#. translators: %d: ID of a post
+#: classes/class-twentytwenty-walker-page.php:82
+msgid "#%d (no title)"
+msgstr "#%d (ingen tittel)"
+
+#: classes/class-twentytwenty-walker-comment.php:127
+msgid "By Post Author"
+msgstr "Av innleggsforfatter"
+
+#: classes/class-twentytwenty-walker-comment.php:56
+msgid "says:"
+msgstr "sier:"
+
+#. Template Name of the theme
+#: classes/class-twentytwenty-customize.php:260
+msgid "Cover Template"
+msgstr "Mal for omslag"
+
+#: classes/class-twentytwenty-customize.php:284
+msgid "Fixed Background Image"
+msgstr "Festet bakgrunnsbilde"
+
+#: classes/class-twentytwenty-customize.php:202
+msgid "Theme Options"
+msgstr "Temavalg"
+
+#: classes/class-twentytwenty-customize.php:249
+msgid "Summary"
+msgstr "Sammendrag"
+
+#: classes/class-twentytwenty-customize.php:248
+msgid "Full text"
+msgstr "Full tekst"
+
+#: classes/class-twentytwenty-customize.php:246
+msgid "On archive pages, posts show:"
+msgstr "På arkivsider viser innlegg:"
+
+#: classes/class-twentytwenty-customize.php:225
+msgid "Show search in header"
+msgstr "Vis søk i sidehodet"
+
+#: classes/class-twentytwenty-customize.php:81
+msgid "Retina logo"
+msgstr "Retina-logo"
+
+#: 404.php:19
+msgid "The page you were looking for could not be found. It might have been removed, renamed, or did not exist in the first place."
+msgstr "Siden du så etter be ikke funnet. Den kan være fjernet, fått nytt navn eller har aldri eksistert."
+
+#: 404.php:17
+msgid "Page Not Found"
+msgstr "Side ikke funnet"
+
+#: classes/class-twentytwenty-customize.php:101
+msgid "Header &amp; Footer Background Color"
+msgstr "Bakgrunnsfarge for sidetopp og sidebunn"
+
+#: classes/class-twentytwenty-customize.php:82
+msgid "Scales the logo to half its uploaded size, making it sharp on high-res screens."
+msgstr "Skalerer logoen til halve sin opplastede størrelse, slik at den blir skarp på skjermer med høy oppløsning."
+
+#: template-parts/modal-menu.php:117
+msgid "Expanded Social links"
+msgstr "Utvidede sosiale lenker"
+
+#: functions.php:338
+msgid "Skip to the content"
+msgstr "Hopp til innholdet"
+
+#: functions.php:375
+msgid "Footer #2"
+msgstr "Bunnfelt 2"
+
+#: functions.php:363
+msgid "Footer #1"
+msgstr "Bunnfelt 1"
+
+#: template-parts/content-cover.php:88
+msgid "Scroll Down"
+msgstr "Rull ned"
+
+#: functions.php:501
+msgid "Subtle Background"
+msgstr "Subtil bakgrunn"
+
+#: functions.php:365
+msgid "Widgets in this area will be displayed in the first column in the footer."
+msgstr "Widgeter i dette området vil vist i den første kolonnen i sidebunnen."
+
+#: functions.php:377
+msgid "Widgets in this area will be displayed in the second column in the footer."
+msgstr "Widgeter i dette området vi bli vist i den andre kolonnen i sidebunnen."
+
+#: classes/class-twentytwenty-customize.php:375
+msgid "Make sure that the contrast is high enough so that the text is readable."
+msgstr "Sørg for at kontrasten er høy nok slik at teksten er lesbar."
+
+#: classes/class-twentytwenty-customize.php:285
+msgid "Creates a parallax effect when the visitor scrolls."
+msgstr "Lager en parallakse-effekt når den besøkende ruller."
+
+#. Author URI of the theme
+#: footer.php:32
+msgid "https://wordpress.org/"
+msgstr "https://nb.wordpress.org/"
+
+#. Author of the theme
+msgid "the WordPress team"
+msgstr "WordPress-gjengen"
+
+#. Theme URI of the theme
+msgid "https://wordpress.org/themes/twentytwenty/"
+msgstr "https://nb.wordpress.org/themes/twentytwenty/"

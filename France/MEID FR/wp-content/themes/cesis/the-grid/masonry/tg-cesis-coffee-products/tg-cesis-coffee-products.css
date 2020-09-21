@@ -1,0 +1,138 @@
+.tg-cesis-coffee-products a:not([class*="tg-element-"]),
+.tg-cesis-coffee-products a:not([class*="tg-element-"]):active,
+.tg-cesis-coffee-products a:not([class*="tg-element-"]):focus,
+.tg-cesis-coffee-products [class*="tg-element-"] *:not(del) {
+	margin: 0;
+	padding: 0;
+	color: inherit !important;
+	text-align: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.tg-cesis-coffee-products [class*="tg-element-"],
+.tg-cesis-coffee-products .tg-item-overlay,
+.tg-cesis-coffee-products .tg-center-holder,
+.tg-cesis-coffee-products .tg-center-inner > * {
+	vertical-align: middle;
+}
+.tg-cesis-coffee-products .tg-item-content-holder[data-position="bottom"] {
+	text-align: left;
+	border-color: #efefef;
+	background-color: #ffffff;
+	position: relative;
+	min-height: 1px;
+	display: block;
+	padding: 30px;
+	border-width: 1px;
+	border-style: solid;
+}
+.tg-cesis-coffee-products .tg-element-5 {
+	position: absolute;
+	overflow: visible;
+	font-size: 12px;
+	line-height: 20px;
+	color: #ffffff !important;
+	font-weight: 700;
+	font-style: normal;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	top: 15px;
+	left: 15px;
+	z-index: 3;
+	width: 40px;
+	min-width: 40px;
+	height: 20px;
+	min-height: 20px;
+	border-radius: 50px;
+}
+.tg-cesis-coffee-products .tg-element-1 {
+	position: relative;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 700;
+	display: block;
+	margin: 0 0 14px;
+	padding: 0;
+}
+.tg-cesis-coffee-products .tg-element-2 {
+	position: relative;
+	clear: both;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	display: block;
+}
+.tg-cesis-coffee-products .tg-element-3 {
+	position: relative;
+	line-height: 14px;
+	font-weight: 400;
+	display: block;
+	z-index: 3;
+	margin: 2px 0 0;
+	-webkit-box-shadow:inset 0 0 0 0 #0a0a0a;
+	-moz-box-shadow:inset 0 0 0 0 #0a0a0a;
+	box-shadow:inset 0 0 0 0 #0a0a0a;
+}
+.tg-cesis-coffee-products .tg-element-3.tg-item-rating a,
+.tg-cesis-coffee-products .tg-element-3.tg-item-rating .star-rating {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: top;
+	margin: 0;
+}
+.tg-cesis-coffee-products .tg-element-3.tg-item-rating .star-rating span {
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: 0;
+}
+.tg-cesis-coffee-products .tg-element-3.tg-item-rating .star-rating:before,
+.tg-cesis-coffee-products .tg-element-3.tg-item-rating .star-rating span:before {
+	position: relative;
+	display: inline-block;
+	float: left;
+	content: "\e636\e636\e636\e636\e636";
+	color: rgba(0,0,0,0.07);
+	text-align: left;
+	white-space: nowrap;
+	font-family: "the_grid";
+	speak: none;
+	font-size: 16px;
+	line-height: 16px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+.tg-cesis-coffee-products .tg-element-3.tg-item-rating .star-rating span:before {
+	color: rgba(22,10,0,0.68);
+}
+.tg-cesis-coffee-products .tg-element-6 {
+	position: relative;
+	clear: both;
+	font-size: 12px;
+	line-height: 48px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.5px;
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	margin: 23px 0 0;
+	padding: 0 15px;
+	border-width: 2px;
+	border-style: solid;
+}

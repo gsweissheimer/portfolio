@@ -1,12 +1,18 @@
-# USA Projects
+# Le Mouvement Européen des Implants Dentaires
+<br />
 
-Projects developed to run in England.
+#### [Website](https://meidmovement.fr/)
+<br />
 
+Project is a second version developed with Bootstrap by the clients choice. I work and coordenate four professionals and the project was planning and executed in 35 hours.
+*[First Version](https://meid-center.com/)
+<br />
 
+> 
 
-Thank you for your appreciation!Thank you for your appre!
+<br /><br />Thank you for your appreciation!
 
-Weissheimer, Guilherme.
-+55 16 99751 5525
-guilherme@arborweb.com.br
-[Linkedin](https://www.linkedin.com/in/guilherme-weissheimer-400868131/?locale=en_US)
+Weissheimer, Guilherme.<br />
++55 16 99751 5525<br />
+guilherme@arborweb.com.br<br />
+[Linkedin Profile](https://www.linkedin.com/in/guilherme-weissheimer-400868131/?locale=en_US)

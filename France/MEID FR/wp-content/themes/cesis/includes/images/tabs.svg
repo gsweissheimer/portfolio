@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Icon/Tab" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Background" fill="#743BFC" fill-rule="nonzero" x="0" y="0" width="32" height="32" rx="5"></rect>
+        <path d="M24.1818182,8 L7.81818182,8 C6.81363636,8 6,8.79555556 6,9.77777778 L6,22.2222222 C6,23.2044444 6.81363636,24 7.81818182,24 L24.1818182,24 C25.1863636,24 26,23.2044444 26,22.2222222 L26,9.77777778 C26,8.79555556 25.1863636,8 24.1818182,8 Z M24.1818182,22.2222222 L7.81818182,22.2222222 L7.81818182,9.77777778 L16.9090909,9.77777778 L16.9090909,13.3333333 L24.1818182,13.3333333 L24.1818182,22.2222222 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>

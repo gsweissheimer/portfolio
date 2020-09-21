@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Icon/FAQ" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="element-icon-row" fill="#FF551E" fill-rule="nonzero">
+            <rect id="Rectangle" x="0" y="0" width="32" height="32" rx="5"></rect>
+        </g>
+        <path d="M23.2,11.2 L21.6,11.2 L21.6,18.4 L11.2,18.4 L11.2,20 C11.2,20.44 11.56,20.8 12,20.8 L20.8,20.8 L24,24 L24,12 C24,11.56 23.64,11.2 23.2,11.2 Z M20,16 L20,8.8 C20,8.36 19.64,8 19.2,8 L8.8,8 C8.36,8 8,8.36 8,8.8 L8,20 L11.2,16.8 L19.2,16.8 C19.64,16.8 20,16.44 20,16 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>

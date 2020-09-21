@@ -1,0 +1,104 @@
+.tg-cesis-coffee-on-image-blog a:not([class*="tg-element-"]),
+.tg-cesis-coffee-on-image-blog a:not([class*="tg-element-"]):active,
+.tg-cesis-coffee-on-image-blog a:not([class*="tg-element-"]):focus,
+.tg-cesis-coffee-on-image-blog [class*="tg-element-"] *:not(del) {
+	margin: 0;
+	padding: 0;
+	color: inherit !important;
+	text-align: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.tg-cesis-coffee-on-image-blog [class*="tg-element-"],
+.tg-cesis-coffee-on-image-blog .tg-item-overlay,
+.tg-cesis-coffee-on-image-blog .tg-center-holder,
+.tg-cesis-coffee-on-image-blog .tg-center-inner > * {
+	vertical-align: middle;
+}
+.tg-cesis-coffee-on-image-blog .tg-item-overlay {
+	background-color: rgba(130,36,227,0.01);
+	background-position-x: 0px;
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 700ms ease !important;
+	-moz-transition: all 700ms ease !important;
+	-ms-transition: all 700ms ease !important;
+	transition: all 700ms ease !important;
+}
+.tg-cesis-coffee-on-image-blog:not(.tg-force-play):not(.tg-is-playing):hover .tg-item-overlay {
+	opacity: 1;
+	visibility: visible;
+}
+.tg-cesis-coffee-on-image-blog div.tg-item-media-content {
+	text-align: left;
+}
+.tg-cesis-coffee-on-image-blog .tg-element-1 {
+	position: relative;
+	clear: both;
+	font-size: 12px;
+	line-height: 24px;
+	color: #333030 !important;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+	background-color: rgba(255,255,255,0.96);
+	display: inline-block;
+	float: none;
+	height: 24px;
+	min-height: 24px;
+	margin: 0 0 0 10%;
+}
+.tg-cesis-coffee-on-image-blog .tg-element-1 .tg-item-term {
+	position: relative;
+	display: inline-block;
+	padding: 0 8px;
+}
+.tg-cesis-coffee-on-image-blog .tg-element-2 {
+	position: relative;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 400;
+	display: block;
+	margin: 0 10%;
+	padding: 15px 0 10px;
+}
+.tg-cesis-coffee-on-image-blog .tg-element-4 {
+	position: relative;
+	font-size: 13px;
+	line-height: 22px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: rgba(255,255,255,0.96);
+	display: inline-block;
+	width: 180px;
+	min-width: 180px;
+	height: 1px;
+	min-height: 1px;
+	margin: 2% 10%;
+	padding: 1px 0 0;
+	border-width: 0 1px 0 0;
+}
+.tg-cesis-coffee-on-image-blog .tg-element-3 {
+	position: relative;
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 400;
+	display: block;
+	margin: 0 10% 10%;
+	padding: 5px 0 0;
+}

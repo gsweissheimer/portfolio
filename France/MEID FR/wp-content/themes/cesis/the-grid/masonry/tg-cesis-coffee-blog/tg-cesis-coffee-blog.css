@@ -1,0 +1,86 @@
+.tg-cesis-coffee-blog a:not([class*="tg-element-"]),
+.tg-cesis-coffee-blog a:not([class*="tg-element-"]):active,
+.tg-cesis-coffee-blog a:not([class*="tg-element-"]):focus,
+.tg-cesis-coffee-blog [class*="tg-element-"] *:not(del) {
+	margin: 0;
+	padding: 0;
+	color: inherit !important;
+	text-align: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.tg-cesis-coffee-blog [class*="tg-element-"],
+.tg-cesis-coffee-blog .tg-item-overlay,
+.tg-cesis-coffee-blog .tg-center-holder,
+.tg-cesis-coffee-blog .tg-center-inner > * {
+	vertical-align: middle;
+}
+.tg-cesis-coffee-blog .tg-item-content-holder[data-position="bottom"] {
+	text-align: left;
+	border-color: #efefef;
+	background-color: #ffffff;
+	position: relative;
+	min-height: 1px;
+	display: block;
+	padding: 30px;
+	border-width: 1px;
+	border-style: solid;
+}
+.tg-cesis-coffee-blog .tg-element-3 {
+	position: relative;
+	font-size: 12px;
+	line-height: 32px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	background-color: rgba(175,175,175,0.08);
+	display: inline-block;
+}
+.tg-cesis-coffee-blog .tg-element-3 .tg-item-term {
+	position: relative;
+	display: inline-block;
+	padding: 0 14px;
+}
+.tg-cesis-coffee-blog .tg-element-1 {
+	position: relative;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 700;
+	display: block;
+	margin: 0 0 14px;
+	padding: 0;
+}
+.tg-cesis-coffee-blog .tg-element-2 {
+	position: relative;
+	clear: both;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.tg-cesis-coffee-blog .tg-element-4 {
+	position: relative;
+	clear: both;
+	font-size: 13px;
+	line-height: 48px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.5px;
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	margin: 23px 0 0;
+	padding: 0 15px;
+	border-width: 2px;
+	border-style: solid;
+}

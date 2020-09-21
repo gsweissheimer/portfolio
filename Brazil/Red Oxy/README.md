@@ -1,12 +1,10 @@
-# USA Projects
+# Working on it!
 
-Projects developed to run in England.
+I am reorganizing my portfolio, so this project will be available here.
 
+<br /><br />Thank you for your appreciation!
 
-
-Thank you for your appreciation!Thank you for your appre!
-
-Weissheimer, Guilherme.
-+55 16 99751 5525
-guilherme@arborweb.com.br
-[Linkedin](https://www.linkedin.com/in/guilherme-weissheimer-400868131/?locale=en_US)
+Weissheimer, Guilherme.<br />
++55 16 99751 5525<br />
+guilherme@arborweb.com.br<br />
+[Linkedin Profile](https://www.linkedin.com/in/guilherme-weissheimer-400868131/?locale=en_US)
