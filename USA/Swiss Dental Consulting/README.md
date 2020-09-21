@@ -1,10 +1,12 @@
-# Swiss Dental Consulting
+Swiss Dental Consulting
+===
 
-## [Website](http://swissdentalconsulting.com)
+[Website](http://swissdentalconsulting.com
+---
 
 Project developed with PHP, JavaScript, HTML and CSS. I work and coordenate four professionals and the project was planning and executed in 190 hours.
 
-<h4>Swiss Dental Consulting is a consultancy specialized in the field of oral health with experience in driving the growth of dental clinics. We handle the training of your team and the entire management of the clinic to provide growth for your business.</h4>
+Swiss Dental Consulting is a consultancy specialized in the field of oral health with experience in driving the growth of dental clinics. We handle the training of your team and the entire management of the clinic to provide growth for your business.
 
 <br /><br />Thank you for your appreciation!
 
