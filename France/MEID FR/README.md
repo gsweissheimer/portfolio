@@ -1,14 +1,15 @@
 # Le Mouvement Européen des Implants Dentaires
 <br />
 
-#### [Website](https://meidmovement.fr/)
-<br />
-
 Project is a second version developed with Bootstrap by the clients choice. I work and coordenate four professionals and the project was planning and executed in 35 hours.
-<br /><ul><li>[First Version](https://meid-center.com/)</li></ul>
+<br />
+<ul>
+    <li>[Website](https://meidmovement.fr/)</li>
+    <li>[First Version](https://meid-center.com/)</li>
+</ul>
 <br />
 
-> 
+> MEID – the European Dental Implant Movement – rehabilitates your oral health through dental implants and fixed prostheses.
 
 <br /><br />Thank you for your appreciation!
 
