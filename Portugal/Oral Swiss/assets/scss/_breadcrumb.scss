@@ -1,0 +1,190 @@
+/* Project Breadcrumb css
+============================================================================================ */
+.project_breadcrumb_area{
+	background: url(../img/banner/project-banner-1.jpg) no-repeat scroll center center;
+	background-size: cover;
+	min-height: 100vh;
+	position: relative;
+	z-index: 2;
+	.breadcrumb_inner{
+		position: relative;
+		min-height: 100vh;
+		.breadcrumb_link{
+			position: absolute;
+			left: 0px;
+			top: 40%;
+			transform: translateY(-50%);
+			a{
+				font-size: 18px;
+				color: #fff;
+				font-family: $hee;
+				font-weight: normal;
+				text-transform: uppercase;
+				letter-spacing: 1.8px;
+				position: relative;
+				@include transition;
+				&:before{
+					content: "";
+					width: 86px;
+					height: 6px;
+					background: $baseColor;
+					position: absolute;
+					top: -26px;
+					left: 0px;
+				}
+				&:hover{
+					color: $baseColor;
+				}
+			}
+		}
+	}
+	.bread_bottom_text{
+		position: absolute;
+		left: -4px;
+		bottom: -5px;
+		h2{
+			color: #fff;
+			text-transform: uppercase;
+			font-size: 12vh;
+			font-family: $os;
+			font-weight: bold;
+			line-height: 1;
+			margin-bottom: 0px;
+		}
+	}
+	.page_lines.white_br{
+		.line{
+			background: rgba(255, 255, 255, .20);
+		}
+	}
+}
+
+
+.breadcrumb_link{
+	padding-top: 220px;
+	a{
+		font-size: 16px;
+		color: $gray;
+		font-family: $hee;
+		text-transform: uppercase;
+		letter-spacing: 1.6px;
+		margin-right: 12px;
+		position: relative;
+		font-weight: normal;
+		@include transition;
+		&:before{
+			content: "/";
+			position: absolute;
+			right: -12px;
+			top: 50%;
+			transform: translateY(-50%);
+			color: $gray;
+		}
+		&:last-child{
+			margin-right: 0px;
+			&:before{
+				display: none;
+			}
+		}
+		&:first-child{
+			color: $dip;
+			font-weight: bold;
+		}
+		&:hover{
+			color: $baseColor;
+		}
+	}
+	&.sinlge_banner{
+		padding-top: 120px;
+		.s_bread_inner{
+			max-width: 770px;
+			margin: auto;
+		}
+	}
+}
+
+
+/* End Project Breadcrumb css
+============================================================================================ */
+
+/* Single Banner Image css
+============================================================================================ */
+.image_banner_area{
+	background: url(../img/blog/single-blog-3.jpg) no-repeat scroll center center;
+	background-size: cover;
+	.single_banner_text{
+		padding-top: 270px;
+		padding-bottom: 230px;
+		.date{
+			margin-bottom: 28px;
+			a{
+				font-size: 14px;
+				color: #fff;
+				font-family: $hee;
+				font-weight: 500;
+				font-weight: normal;
+				text-transform: uppercase;
+				&:last-child{
+					font-weight: bold;
+				}
+			}
+			i{
+				font-size: 6px;
+				color: #fff;
+				position: relative;
+				top: -2px;
+				padding-left: 2px;
+				padding-right: 2px;
+			}
+		}
+		h3{
+			color: #fff;
+			font-size: 48px;
+			font-family: $hee;
+			font-weight: bold;
+			line-height: 52px;
+			margin-bottom: 0px;
+		}
+	}
+}
+
+.page_link{
+	margin-bottom: 100px;
+	a{
+		font-size: 14px;
+		font-family: $hee;
+		font-weight: normal;
+		color: $gray;
+		text-transform: uppercase;
+		margin-right: 15px;
+		position: relative;
+		@include transition;
+		&:before{
+			content: '/';
+			color: $gray;
+			font-size: 14px;
+			font-family: $hee;
+			position: absolute;
+			right: -12px;
+			top: 46%;
+			transform: translateY(-50%);
+		}
+		&.active{
+			color: $dip;
+			font-weight: bold;
+		}	
+		&:last-child{
+			margin-right: 0px;
+			&:before{
+				display: none;
+			}
+		}
+		&:hover{
+			color: $baseColor;
+		}
+	}
+}
+
+/* End Single Banner Image css
+============================================================================================ */
+

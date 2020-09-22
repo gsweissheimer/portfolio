@@ -1,0 +1,160 @@
+:root {
+--red-cta: #b21f24;
+--white-cta: #ffffff;
+--black-cta: #000000;
+--grey-cta: #919393;
+}
+
+/* #### COMMUM #### */
+
+@media (max-width: 700px) {
+	.ctaFullWidth {
+		width: 100% !important;
+	}
+	
+}
+
+.ctaPattern {
+color: black;
+display: inline-block;
+text-decoration: none;
+font-weight: bold;
+font-family: "Heebo", sans-serif;
+position: relative;
+margin-bottom: 0px;
+font-size: 18px;
+-webkit-transition: all 0.3s;
+-o-transition: all 0.3s;
+transition: all 0.3s;
+}
+
+/* #### TYPES #### */
+.ctaBottomLine {
+padding: 4px 0px;
+border-bottom: 2px solid;
+}
+.ctaBoxed {
+min-width: 150px;
+padding: 10px 15px;
+border: 2px solid;
+}
+
+/* #### RED #### */
+.ctaRedC {
+color: var(--red-cta);
+}
+.ctaRedC {
+color: var(--red-cta);
+background-color: transparent;
+}
+.ctaRedB {
+background-color: var(--red-cta);
+border-color: var(--red-cta);
+color: var(--white-cta)
+}
+.ctaBoxed.ctaRedCHover,
+.ctaBoxed.ctaRedC:hover {
+color: var(--white-cta);
+background-color: var(--red-cta);
+border-color: var(--red-cta);
+}
+.ctaBoxed.ctaRedBHover,
+.ctaBoxed.ctaRedB:hover {
+background-color: transparent;
+color: var(--red-cta);
+}
+.ctaBottomLine.ctaRedCHover,
+.ctaBottomLine.ctaRedC:hover {
+	color: var(--grey-cta);
+}
+
+/* #### BLACK #### */
+.ctaBlackC {
+color: var(--black-cta);
+background-color: transparent;
+}
+.ctaBlackB {
+background-color: var(--black-cta);
+color: var(--white-cta);
+border-color: var(--black-cta);
+}
+.ctaBoxed.ctaBlackCHover,
+.ctaBoxed.ctaBlackC:hover {
+color: var(--white-cta);
+background-color: var(--black-cta);
+border-color: var(--black-cta);
+}
+.ctaBoxed.ctaBlackBHover,
+.ctaBoxed.ctaBlackB:hover {
+background-color: transparent;
+color: var(--black-cta);
+}
+.ctaBottomLine.ctaBlackCHover,
+.ctaBottomLine.ctaBlackC:hover {
+color: var(--grey-cta);
+background-color: transparent;
+}
+
+/* #### GREY #### */
+.ctaGreyC {
+color: var(--grey-cta);
+background-color: transparent;
+}
+.ctaGreyB {
+background-color: var(--grey-cta);
+border-color: var(--grey-cta);
+color: var(--white-cta)
+}
+.ctaBoxed.ctaGreyCHover,
+.ctaBoxed.ctaGreyC:hover {
+color: var(--white-cta);
+background-color: var(--grey-cta);
+border-color: var(--grey-cta);
+}
+.ctaBoxed.ctaGreyBHover,
+.ctaBoxed.ctaGreyB:hover {
+background-color: transparent;
+color: var(--grey-cta);
+}
+.ctaBottomLine.ctaGreyCHover,
+.ctaBottomLine.ctaGreyC:hover {
+color: var(--red-cta);
+background-color: transparent;
+}
+
+/* #### GREY #### */
+.ctaWhiteC {
+color: var(--white-cta);
+background-color: transparent;
+}
+.ctaWhiteB {
+background-color: var(--white-cta);
+border-color: var(--white-cta);
+color: var(--red-cta)
+}
+.ctaBoxed.ctaWhiteCHover,
+.ctaBoxed.ctaWhiteC:hover {
+color: var(--red-cta);
+background-color: var(--white-cta);
+border-color: var(--white-cta);
+}
+.ctaBoxed.ctaWhiteBHover,
+.ctaBoxed.ctaWhiteB:hover {
+background-color: transparent;
+color: var(--white-cta);
+}
+.ctaBottomLine.ctaWhiteCHover,
+.ctaBottomLine.ctaWhiteC:hover {
+color: var(--red-cta);
+background-color: transparent;
+}
+
+@media (max-width: 700px) {
+
+	.ctaPattern {
+		font-size: 14px !important;
+		/*novo*/
+		text-align: center;
+	}
+
+}

@@ -1,0 +1,210 @@
+/* Inter Studio css
+============================================================================================ */
+.bg_color{
+	background: #1b1b1b;
+}
+.since_text{
+	position: relative;
+	left: 40px;
+	h5{
+		position: absolute;
+		left: 0px;
+		top: 36px;
+		transform: rotate(90deg);
+		color: #fff;
+		font-size: 13.63px;
+		font-family: $hee;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: .340px;
+	}
+}
+.intes_studio_area{
+	padding-top: 160px;
+	.studio_img{
+		width: 100%;
+		max-width: 400px;
+		height: 100%;
+		position: relative;
+		&:after{
+			content: "";
+			background: url(../img/circle-teckture.png) no-repeat scroll center center;
+			width: 191px;
+			height: 191px;
+			position: absolute;
+			right: -95px;
+			top: 44.90%;
+			z-index: -1;
+			transform: translateY(-50%);
+		}
+		img{
+			width: 100%;
+			position: relative;
+			z-index: 2;
+		}
+		.years_text{
+			position: absolute;
+			right: 0px;
+			top: 58%;
+			transform: translateY(-50%);
+			z-index: 2;
+			&:before{
+				content: "";
+				width: 153px;
+				height: 153px;
+				border: 5px solid $baseColor;
+				display: inline-block;
+				right: -79px;
+				position: relative;
+			}
+			.years_text_inner{
+				position: relative;
+				right: -110px;
+				top: -100px;
+				h1{
+					color: #fff;
+					font-size: 105px;
+					font-weight: bold;
+					font-family: $os;
+					margin-bottom: 0px;
+				}
+				h2{
+					color: #fff;
+					font-size: 48px;
+					font-family: $hee;
+					font-weight: 900;
+					text-transform: uppercase;
+					letter-spacing: 1.2px;
+					margin-bottom: 0px;
+				}
+				h4{
+					font-size: 16px;
+					font-family: $hee;
+					font-weight: 500;
+					color: #fff;
+					letter-spacing: .40px;
+					text-transform: uppercase;
+					margin-bottom: 0px;
+					padding-left: 3px;
+				}
+			}
+		}
+	}
+}
+
+
+.studio_text{
+	margin-left: -15px;
+	h3{
+		color: #fff;
+		font-size: 42px;
+		line-height: 48px;
+		font-family: $hee;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 35px;
+	}
+	h5{
+		font-size: 24px;
+		line-height: 30px;
+		font-family: $hee;
+		color: #fff;
+		max-width: 380px;
+		font-weight: normal;
+		margin-bottom: 50px;
+	}
+	p{
+		font-size: 14px;
+		line-height: 24px;
+		color: $pfont;
+		font-family: $hee;
+		letter-spacing: .21px;
+		font-weight: normal;
+		margin-bottom: 120px;
+	}
+}
+
+
+.white_cl{
+	.since_text{
+		h5{
+			color: $dip;
+		}
+	}
+	&.intes_studio_area{
+		.studio_img{
+			.years_text{
+				.years_text_inner{
+					h1{
+						color: $dip;
+					}
+					h2{
+						color: $dip;
+					}
+					h4{
+						color: $dip;
+					}
+				}
+			}
+		}
+	}
+	.studio_text{
+		h3{
+			color: $dip;
+		}
+		h5{
+			color: $dip;
+		}
+		p{
+			color: $gray;
+		}
+	}
+}
+
+
+/* End Inter Studio css
+============================================================================================ */
+
+/* Specialliazition css
+============================================================================================ */
+.speciallization_area{
+	padding-top: 130px;
+	.s_title{
+		margin-bottom: 70px;
+	}
+}
+.spec_item{
+	img{}
+	h4{
+		font-size: 30px;
+		color: #fff;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 15px;
+		margin-top: 40px;
+	}
+	p{
+		font-size: 14px;
+		line-height: 24px;
+		color: $pfont;
+		letter-spacing: .21px;
+		font-weight: $hee;
+		font-weight: normal;
+		max-width: 320px;
+		margin-bottom: 30px;
+	}
+}
+
+.white_cl{
+	.spec_item{
+		h4{
+			color: $dip;
+		}
+		p{
+			color: $gray;
+		}
+	}
+}
+
+/* End Specialliazition css
+============================================================================================ */

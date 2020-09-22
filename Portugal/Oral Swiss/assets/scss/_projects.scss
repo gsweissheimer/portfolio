@@ -1,0 +1,891 @@
+/* Latest Projects css
+============================================================================================ */
+.latest_project{
+	padding-top: 160px;
+	.l_text{
+		padding-bottom: 70px;
+		overflow: hidden;
+	}
+}
+.fillter_slider{
+	overflow: hidden;
+	.owl-prev, .owl-next{
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: 2;
+		font-size: 100px;
+		color: #fff;
+		cursor: pointer;
+		opacity: 0;
+		@include transition;
+	}
+	.owl-prev{
+		left: 70px;
+	}
+	.owl-next{
+		right: 70px;
+	}
+	&:hover{
+		.owl-prev, .owl-next{
+			opacity: 1;
+		}
+	}	
+}
+.gird_sizer{
+	width: 25%;
+}
+
+
+.projects_item{
+	position: relative;
+	.hover{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		transition: all 300ms ease;
+		overflow: hidden;
+		i{
+			position: absolute;
+			right: -35px;
+			top: 20px;
+			color: #fff;
+			font-size: 48px;
+			transition: all 400ms ease;
+		}
+		.project_text{
+			position: absolute;
+			left: 40px;
+			bottom: 45px;
+			color: #fff;
+			h5{
+				font-size: 14px;
+				font-family: $hee;
+				font-weight: 500;
+				opacity: 0;
+				margin-bottom: -5px;
+				transition: all 400ms ease;
+			}
+			h4{
+				font-size: 36px;
+				font-family: $hee;
+				font-weight: bold;
+				max-width: 340px;
+				margin-bottom: -5px;
+				opacity: 0;
+				transition: all 400ms ease;
+				color: #fff;
+			}
+		}
+	}
+	&:hover{
+		.hover{
+			background: rgba(163, 204, 1, .9);
+			i{
+				right: 30px;
+			}
+			.project_text{
+				h5{
+					margin-bottom: 15px;
+					opacity: 1;
+				}
+				h4{
+					margin-bottom: 0px;
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+
+.portfolio_filter{
+	position: relative;
+	top: 10px;
+	li{
+		display: inline-block;
+		margin-right: 30px;
+		a{
+			font-size: 18px;
+			color: $pfont;
+			@include transition;
+		}
+		&:last-child{
+			margin-right: 0px;
+		}
+		&:hover, &.active{
+			a{
+				color: #fff;
+			}
+		}
+	}	
+}
+
+.white_cl{
+	.portfolio_filter{
+		li{
+			a{
+				color: $gray;
+				@include transition;
+			}
+			&.active{
+				a{
+					color: $dip;
+				}
+			}
+			&:hover{
+				a{
+					color: $dip;
+				}
+			}
+		}	
+	}
+}
+
+/* End Latest Projects css
+============================================================================================ */
+
+/* End Latest Projects css
+============================================================================================ */
+.our_press_area{
+	padding-top: 145px;
+	padding-bottom: 135px;
+	.s_title{
+		margin-bottom: 80px;
+	}
+}
+.press_img_item{
+	.date{
+		margin-bottom: 15px;
+		margin-top: 15px;
+		a{
+			font-size: 12px;
+			font-family: $hee;
+			font-weight: bold;
+			color: #fff;
+			text-transform: uppercase;
+			@include transition;
+			&:first-child{
+				color: $pfont;
+				font-weight: 500;
+				&:hover{
+					color: #fff;
+				}
+			}
+			&:hover{
+				color: $baseColor;
+			}
+		}
+		i{
+			color: $pfont;
+			font-size: 6px;
+			position: relative;
+			top: -2px;
+		}
+	}
+	h4{
+		font-size: 24px;
+		line-height: 30px;
+		color: #fff;
+		font-family: $hee;
+		font-weight: bold;
+		margin-bottom: 0px;
+		@include transition;
+		&:hover{
+			color: $baseColor;
+		}
+	}
+}
+.press_item_inner{
+	
+}
+.press_item{
+	margin-bottom: 25px;
+	max-width: 465px;
+	margin-left: 70px;
+	.date{
+		margin-bottom: 12px;
+		a{
+			font-size: 12px;
+			font-family: $hee;
+			font-weight: bold;
+			color: #fff;
+			text-transform: uppercase;
+			@include transition;
+			&:first-child{
+				color: $pfont;
+				&:hover{
+					color: #fff;
+				}
+			}
+			&:hover{
+				color: $baseColor;
+			}
+		}
+		i{
+			color: $pfont;
+			font-size: 6px;
+			position: relative;
+			top: -2px;
+		}
+	}
+	h4{
+		font-size: 24px;
+		line-height: 30px;
+		color: #fff;
+		font-family: $hee;
+		font-weight: bold;
+		margin-bottom: 0px;
+		@include transition;
+		&:hover{
+			color: $baseColor;
+		}
+	}
+	&:last-child{
+		margin-bottom: 0px;
+	}
+}
+
+
+.white_cl{
+	.press_img_item{
+		.date{
+			a{
+				color: $dip;
+				@include transition;
+				&:first-child{
+					color: $gray;
+					&:hover{
+						color: $dip;
+					}
+				}
+				&:hover{
+					color: $baseColor;
+				}
+			}
+			i{
+				color: $gray;
+			}
+		}
+		h4{
+			color: $dip;
+			&:hover{
+				color: $baseColor;
+			}
+		}
+	}
+	.press_item{
+		.date{
+			a{
+				color: $dip;
+				&:first-child{
+					color: $gray;
+					&:hover{
+						color: $dip;
+					}
+				}
+				&:hover{
+					color: $baseColor;
+				}
+			}
+			i{
+				color: $gray;
+			}
+			
+		}
+		h4{
+			color: $dip;
+			&:hover{
+				color: $baseColor;
+			}
+		}
+	}
+}
+
+/* End Latest Projects css
+============================================================================================ */
+
+/* Project Details css
+============================================================================================ */
+.project_details_area{
+	padding-top: 115px;
+	padding-bottom: 115px;
+}
+.back_btn{
+	margin-bottom: 70px;
+	a{
+		font-size: 14px;
+		font-family: $hee;
+		font-weight: 500;
+		color: $dip;
+		i{
+			padding-right: 5px;
+			font-size: 20px;
+			position: relative;
+			top: 2px;
+		}
+	}
+}
+.pd_item{
+	h5{
+		font-size: 14px;
+		font-weight: bold;
+		color: $dip;
+		font-family: $hee;
+		margin-bottom: 15px;
+		span{
+			color: $gray;
+			font-weight: normal;
+		}
+		&:last-child{
+			margin-bottom: 0px;
+		}
+		&.share_link{
+			a{
+				color: #00c1f1;
+				position: relative;
+				margin-right: 10px;
+				font-weight: normal;
+				&:before{
+					content: "";
+					width: 4px;
+					height: 1px;
+					background: #8d9aa8;
+					position: absolute;
+					right: -8px;
+					top: 50%;
+				}
+				&:last-child{
+					margin-right: 0px;
+					color: #fc7d00;
+					&:before{
+						display: none;
+					}
+				}
+				&:nth-child(2){
+					color: #1f5fa6;
+				}
+				&:nth-child(3){
+					color: #d10000;
+				}
+			}
+		}
+	}
+}
+
+
+.project_villa_area{
+	.villa_text{
+		margin-bottom: 70px;
+		h2{
+			color: $dip;
+			font-family: $hee;
+			font-weight: bold;
+			font-size: 36px;
+			margin-bottom: 60px;
+		}
+		p{
+			font-size: 18px;
+			line-height: 30px;
+			font-family: $hee;
+			font-weight: normal;
+			color: $dip;
+			margin-bottom: 0px;
+		}
+	}
+	.link_btn{
+		margin-top: 135px;
+		margin-bottom: 145px;
+		a{
+			font-size: 30px;
+			font-weight: bold;
+			font-family: $hee;
+			color: $dip;
+			position: relative;
+			display: inline-block;
+			@include transition;
+			&:before{
+				content: "";
+				position: absolute;
+				left: 0px;
+				bottom: 5px;
+				background: #263a4f;
+				height:2px;
+				width: 100%;
+				@include transition;
+			}
+			&:hover{
+				color: $baseColor;
+				&:before{
+					background: $baseColor;
+				}
+			}
+		}
+	}
+}
+.villa_slider{
+	position: relative;
+	z-index: 2;
+	.owl-prev, .owl-next{
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: 2;
+		font-size: 60px;
+		color: #8d9aa8;
+		@include transition;
+		cursor: pointer;
+		&:hover{
+			color: $dip;
+		}
+	}
+	.owl-prev{
+		left: -70px;
+	}
+	.owl-next{
+		right: -70px;
+	}
+}
+
+.prev_next_area{
+	display: flex;
+	flex: wrap;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	.prev{
+		flex: 0 0 50%;
+		max-width: 50%;
+		background: #eaf0f3;
+		text-align: center;
+		padding: 48px 0px;
+		a{
+			text-transform: uppercase;
+			font-size: 18px;
+			font-family: $hee;
+			letter-spacing: 18px;
+			color: $gray;
+		}
+	}
+	.next{
+		flex: 0 0 50%;
+		max-width: 50%;
+		background: url(../img/next-bg.jpg) no-repeat scroll center center;
+		background-size: cover;
+		padding: 48px 0px;
+		a{
+			text-transform: uppercase;
+			font-size: 18px;
+			font-family: $hee;
+			letter-spacing: 18px;
+			color: #fff;
+		}
+	}
+}
+
+/* End Project Details css
+============================================================================================ */
+
+/* Our Projects css
+============================================================================================ */
+.our_projects_area{
+	.projects_tt{
+		overflow: hidden;
+		padding-bottom: 140px;
+		padding-top: 40px;
+		.float-md-right{
+			
+		}
+	}
+}
+.isotope_fillter{
+	margin-top: 22px;
+	li{
+		display: inline-block;
+		margin-right: 30px;
+		a{
+			font-size: 18px;
+			color: $gray;
+			font-weight: normal;
+			font-family: $hee;
+			@include transition;
+		}
+		&:hover, &.active{
+			a{
+				color: $dip;
+			}	
+		}
+		&:last-child{
+			margin-right: 0px;
+		}
+	}
+}
+.our_projects_area{
+	overflow: hidden;
+}
+.projects_inner{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: -3px;
+	margin-bottom: -3px;
+	margin-left: -3px;
+	margin-right: -3px;
+	overflow: hidden;
+	.projects_column{
+		flex: 0 0 25%;
+		max-width: 25%;
+		padding: 3px 3px;
+		overflow: hidden;
+	}
+	.projects_item{
+		.hover{
+			.project_text{
+				h5{
+					margin-bottom: 12px;
+					opacity: 1;
+				}
+				h4{
+					opacity: 1;
+					margin-bottom: 0px;
+				}
+			}
+		}
+	}
+}
+
+
+
+.full_project_area{
+	padding-top: 200px;
+	.main_title{
+		text-align: center;
+		margin-bottom: 0px;
+		margin-bottom: 85px;
+		h2{
+			font-size: 60px;
+		}
+	}
+	.isotope_fillter{
+		text-align: center;
+		margin-top: 0px;
+		margin-bottom: 55px;
+	}
+}
+.p_full_item{
+	margin-bottom: 140px;
+	position: relative;
+	&:before{
+		content: "";
+		background: rgba(0, 0, 0, .5);
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		transition: all 300ms ease;
+	}
+	.hover{
+		position: absolute;
+		left: 0;
+		transform: translateY(-50%);
+		top: 50%;
+		width: 100%;
+		text-align: center;
+		h5{
+			font-size: 14px;
+			font-family: $hee;
+			font-weight: 500;
+			color: #fff;
+			letter-spacing: .21px;
+			display: block;
+			opacity: 0;
+			transition: all 300ms ease;
+		}
+		h4{
+			color: #fff;
+			font-size: 36px;
+			font-family: $hee;
+			font-weight: bold;
+			opacity: 0;
+			transition: all 300ms ease;
+			margin-bottom: 0px;
+		}
+	}
+	&:last-child{
+		margin-bottom: 0px;
+	}
+	&:hover{
+		&:before{
+			opacity: 1;
+		}
+		.hover{
+			h5{
+				opacity: 1;
+				margin-bottom: 13px;
+			}
+			h4{
+				opacity: 1;
+			}
+		}
+	}
+}
+
+
+.pagination_dotted{
+	text-align: center;
+	padding: 100px 0px;
+	a{
+		height: 5px;
+		width: 5px;
+		background: $dip;
+		display: inline-block;
+		border-radius: 50%;
+		margin-right: 12px;
+		&:last-child{
+			margin-right: 0px;
+		}
+		&.active{
+			transform: scale(1.40);
+		}
+	}
+}
+
+
+
+/* End Our Projects css
+============================================================================================ */
+
+/* Masonry Project css
+============================================================================================ */
+.ms_project_area{
+	.pagination_dotted{
+		background: #fff;
+	}
+}
+.ms_project_inner{
+	.ms_p_item{
+		width: calc(100% / 4);
+		.hover{
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			width: 100%;
+			height: 100%;
+			transition: all 300ms ease;
+			overflow: hidden;
+			i{
+				position: absolute;
+				right: -50px;
+				top: 20px;
+				color: #fff;
+				font-size: 48px;
+				transition: all 400ms ease;
+			}
+			.project_text{
+				position: absolute;
+				left: 40px;
+				bottom: 45px;
+				color: #fff;
+				h5{
+					font-size: 14px;
+					font-family: $hee;
+					font-weight: 500;
+					opacity: 0;
+					margin-bottom: -5px;
+					transition: all 400ms ease;
+				}
+				h4{
+					font-size: 36px;
+					font-family: $hee;
+					font-weight: bold;
+					max-width: 340px;
+					margin-bottom: -5px;
+					opacity: 0;
+					transition: all 400ms ease;
+					color: #fff;
+				}
+			}
+		}
+		&:hover{
+			.hover{
+				background: rgba(0, 0, 0, .5);
+				i{
+					right: 30px;
+				}
+				.project_text{
+					h5{
+						margin-bottom: 15px;
+						opacity: 1;
+					}
+					h4{
+						margin-bottom: 0px;
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+}
+/* End Masonry Project css
+============================================================================================ */
+
+/* About Studio css
+============================================================================================ */
+.about_studio_area{
+	padding-top: 150px;
+	.ab_studio_text{
+		padding-right: 20px;
+		.s_title{
+			font-size: 16px;
+			color: $gray;
+			margin-bottom: 43px;
+		}
+		h5{
+			font-size: 30px;
+			line-height: 36px;
+			color: $dip;
+			margin-bottom: 35px;
+			&:last-child{
+				margin-bottom: 0px;
+			}
+		}
+	}
+}
+
+.speciallization_area.ab_spec{
+	padding-top: 120px;
+	padding-bottom: 125px;
+}
+
+
+.meet_team_area{
+	padding-top: 120px;
+	padding-bottom: 138px;
+}
+.team_inner{
+	h4{
+		font-size: 18px;
+		font-family: $hee;
+		font-weight: bold;
+		color: $gray;
+		margin-bottom: 68px;
+	}
+	h3{
+		color: $dip;
+		font-family: $hee;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 18px;
+		position: relative;
+		margin-top: 70px;
+		display: inline-block;
+		@include transition;
+		&:before{
+			content: "";
+			height: 2px;
+			width: 100%;
+			position: absolute;
+			left: 0px;
+			bottom: 0px;
+			background: #929ca7;
+			@include transition;
+		}
+		&:hover{
+			color: $baseColor;
+			&:before{
+				background: $baseColor;
+			}
+		}
+	}
+}
+.team_slider{
+	position: relative;
+	.team_slider{
+		position: absolute;
+		top: -99px;
+		right: 0px;
+	}
+	.owl-prev, .owl-next{
+		display: inline-block;
+		font-size: 36px;
+		color: $pfont;
+		@include transition;
+		cursor: pointer;
+		&:hover{
+			color: #000;
+		}
+	}
+	.owl-prev{
+		margin-right: 30px;
+	}
+}
+.team_item{
+	position: relative;
+	&:before{
+		content: "";
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		background: rgba(163, 204, 1, .90);
+		opacity: 0;
+		transition: all 300ms ease;
+	}	
+	.hover{
+		position: absolute;
+		left: 24px;
+		top: 50%;
+		transform: translateY(-50%);
+		opacity: 0;
+		transition: all 400ms ease;
+		h5{
+			font-size: 18px;
+			font-family: $hee;
+			font-weight: bold;
+			color: #fff;
+			margin-bottom: 7px;
+		}
+		h6{
+			font-size: 14px;
+			font-family: $hee;
+			font-weight: normal;
+			color: #fff;
+			margin-bottom: 20px;
+		}
+		.list{
+			transform: translateY(10px);
+			opacity: 0;
+			transition: all 500ms ease;
+			li{
+				display: inline-block;
+				margin-right: 18px;
+				a{
+					font-size: 16px;
+					color: #fff;
+				}
+				&:last-child{
+					margin-right: 0px;
+				}
+			}
+		}	
+	}
+	&:hover{
+		&:before{
+			opacity: 1;
+		}
+		.hover{
+			opacity: 1;
+			.list{
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
+	}
+}
+
+
+/* End About Studio css
+============================================================================================ */

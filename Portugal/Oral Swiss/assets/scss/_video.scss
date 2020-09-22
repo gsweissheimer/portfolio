@@ -1,0 +1,162 @@
+/* Video Frame css
+============================================================================================ */
+//
+//.video_frame{
+//	position: fixed;
+//	width: 100%;
+//	height: 100%;
+//	background: #1b1b1b;
+//	z-index: 99;
+//	transform: translateY(120%);
+//	opacity: 0px;
+//	visibility: hidden;
+//	transition: all 700ms ease;
+//	.close_icon{
+//		position: absolute;
+//		right: 60px;
+//		top: 20px;
+//		border: 1px solid #fff;
+//		border-radius: 50%;
+//		height: 40px;
+//		width: 40px;
+//		text-align: center;
+//		line-height: 43px;
+//		color: #fff;
+//		font-size: 22px;
+//		cursor: pointer;
+//		z-index: 40;
+//		i{
+//			position: absolute;
+//			left: 0;
+//			top: 50%;
+//			margin-top: -11px;
+//			width: 100%;
+//			text-align: center;
+//			@include transition;
+//		}
+//		&:hover{
+//			i{
+//				transform: rotate(90deg);
+//			}
+//		}
+//	}
+//	.player .vp-sidedock button{
+//		display: none !important;
+//	}
+//	&.open{
+//		transform: translateY(0%);
+//		opacity: 1;
+//		visibility: visible;
+//		top: 0px;
+//	}
+//}
+
+/**
+ * Simple fade transition,
+ */
+.mfp-fade.mfp-bg {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out; 
+	-moz-transition: all 0.15s ease-out; 
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+	opacity: 0.8;
+}
+.mfp-fade.mfp-bg.mfp-removing {
+	opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out; 
+	-moz-transition: all 0.15s ease-out; 
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+	opacity: 1;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+	opacity: 0;
+}
+
+
+
+/* Styles for dialog window */
+#small-dialog {
+	background: #000;
+	text-align: left;
+	max-width: 800px;
+	margin: 40px auto;
+	position: relative;
+	overflow: visible;
+	.mfp-close{
+		right: -40px;
+		top: -40px;
+	}
+	
+}
+
+
+/**
+ * Fade-move animation for second dialog
+ */
+
+/* at start */
+.my-mfp-slide-bottom .zoom-anim-dialog {
+	opacity: 0;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+
+	-webkit-transform: translateY(-40px) perspective( 600px ) rotateX( 10deg );
+	-moz-transform: translateY(-40px) perspective( 600px ) rotateX( 10deg );
+	-ms-transform: translateY(-40px) perspective( 600px ) rotateX( 10deg );
+	-o-transform: translateY(-40px) perspective( 600px ) rotateX( 10deg );
+	transform: translateY(-40px) perspective( 600px ) rotateX( 10deg );
+
+}
+
+/* animate in */
+.my-mfp-slide-bottom.mfp-ready .zoom-anim-dialog {
+	opacity: 1;
+	-webkit-transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+	-moz-transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+	-ms-transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+	-o-transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+	transform: translateY(0) perspective( 600px ) rotateX( 0 ); 
+}
+
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing .zoom-anim-dialog {
+	opacity: 0;
+
+	-webkit-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+	-moz-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+	-ms-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+	-o-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+	transform: translateY(-10px) perspective( 600px ) rotateX( 10deg ); 
+}
+
+/* Dark overlay, start state */
+.my-mfp-slide-bottom.mfp-bg {
+	opacity: 0;
+
+	-webkit-transition: opacity 0.3s ease-out; 
+	-moz-transition: opacity 0.3s ease-out; 
+	-o-transition: opacity 0.3s ease-out; 
+	transition: opacity 0.3s ease-out;
+}
+/* animate in */
+.my-mfp-slide-bottom.mfp-ready.mfp-bg {
+	opacity: 0.8;
+}
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+
+
+/* End Video Frame css
+============================================================================================ */

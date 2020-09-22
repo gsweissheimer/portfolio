@@ -1,0 +1,235 @@
+/* Blog Comment Form css
+============================================================================================ */
+.comment_form{
+	background: #ebf0f4;
+	padding: 130px 0px;
+}
+.fomment_form_inner{
+	
+}
+.comment_title{
+	padding-bottom: 45px;
+	h2{
+		font-size: 24px;
+		font-family: $hee;
+		font-weight: bold;
+		color: $dip;
+		margin-bottom: 12px;
+	}
+	p{
+		font-size: 14px;
+		font-family: $hee;
+		font-weight: normal;
+		color: $gray;
+		margin-bottom: 0px;
+	}
+}
+.comment_from{
+	.form-group{
+		margin-bottom: 30px;
+		input{
+			height: 50px;
+			border: 1px solid #bcc5ce;
+			border-radius: 0px;
+			padding: 0px 15px;
+			background: #fff;
+			outline: none;
+			box-shadow: none;
+			font-size: 14px;
+			color: $gray;
+			font-family: $hee;
+			font-weight: normal;
+			@include placeholder{
+				font-size: 14px;
+				color: $gray;
+				font-family: $hee;
+				font-weight: normal;
+			}
+		}
+		textarea{
+			height: 216px;
+			border: 1px solid #bcc5ce;
+			border-radius: 0px;
+			padding: 15px 15px;
+			background: #fff;
+			outline: none;
+			box-shadow: none;
+			font-size: 14px;
+			color: $gray;
+			font-family: $hee;
+			resize: none;
+			font-weight: normal;
+			@include placeholder{
+				font-size: 14px;
+				color: $gray;
+				font-family: $hee;
+				font-weight: normal;
+			}
+		}
+		&:last-child{
+			margin-bottom: 0px;
+			margin-top: 17px;
+		}
+	}
+}
+
+.p_star {
+    display: inline-block;
+    position: relative;
+}
+
+.p_star input {
+    background: #fff;
+}
+
+.p_star input:valid + .placeholder {
+    display: none;
+}
+//.p_star input:focus + .placeholder{
+//    display: none;
+//}
+.p_star .placeholder {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 30px;
+    z-index: 1;
+}
+
+.p_star .placeholder::before {
+    content: attr(data-placeholder);
+    color: $gray;
+	font-family: $hee;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.p_star .placeholder::after {
+    content: " *";
+    color: tomato; 
+}
+
+
+/* End Blog Comment Form css
+============================================================================================ */
+
+/* End Blog Comment Form css
+============================================================================================ */
+.banner_map{
+	.mapBox{
+		min-height: 620px;
+	}
+}
+
+
+.contact_area2{
+	padding-top: 145px;
+	padding-bottom: 160px;
+	.left_contact_details{
+		h1{
+			font-size: 48px;
+			color: $dip;
+			font-family: $hee;
+			font-weight: bold;
+			margin-bottom: 85px;
+		}
+		h2{
+			font-size: 30px;
+			font-family: $hee;
+			font-weight: normal;
+			color: $gray;
+			margin-bottom: 25px;
+			span{
+				font-weight: bold;
+				color: $dip;
+			}
+		}
+		p{
+			font-size: 14px;
+			line-height: 24px;
+			color: $dip;
+			font-family: $hee;
+			font-weight: normal;
+			margin-bottom: 25px;
+		}
+		a{
+			font-size: 14px;
+			line-height: 24px;
+			color: $dip;
+			font-family: $hee;
+			font-weight: normal;
+			margin-bottom: 25px;
+		}
+		.map_btn{
+			color: #0099cc;
+			font-family: $hee;
+			font-weight: bold;
+			margin-bottom: 0px;
+			margin-top: 100px;
+			@include transition;
+			&:hover{
+				color: $baseColor;
+			}
+		}
+	}
+	.right_contact_form{
+		h4{
+			font-size: 18px;
+			color: $dip;
+			font-family: $hee;
+			font-weight: bold;
+		}
+		.contact_us_form{
+			.form-group{
+				input{
+					border-bottom-color: #e9ebed;
+					@include placeholder{
+						color: $gray;
+					}
+					&:focus{
+						border-bottom-color: #a8b0b9;
+						color: $dip;
+					}
+				}
+				textarea{
+					border-bottom-color: #e9ebed;
+					@include placeholder{
+						color: $gray;
+					}
+					&:focus{
+						border-bottom-color: #a8b0b9;
+						color: $dip;
+					}
+				}
+				.order_s_btn{
+					font-size: 14px;
+					color: $dip;
+					display: inline-block;
+					width: auto;
+					&:hover{
+						color: $baseColor;
+					}
+					&:focus{
+						border: none;
+						outline: none;
+						box-shadow: none;
+					}
+				}
+				&:last-child{
+					margin-top: 62px;
+				}
+			}
+		}
+	}
+}
+label{
+	margin-top: 8px;
+}
+.success-message, .error-message {
+    display: none;
+    margin-top: 5px;
+	padding-left: 15px; 
+}
+
+/* End Blog Comment Form css
+============================================================================================ */

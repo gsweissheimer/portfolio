@@ -1,0 +1,132 @@
+/* Home Full Slider css
+============================================================================================ */
+.home_slider{
+	position: relative;
+	.rev_slider{
+		position: relative;
+		li{
+			z-index: 6 !important;
+			.slotholder{
+				.tp-bgimg.defaultimg {
+					
+				}
+			}
+			.slider_text_box{
+				position: relative;
+				z-index: 25 !important;
+			}
+			.text_1{
+				color: #fff;
+			}
+			.count{
+				color: #fff;
+				font-weight: bold;
+				font-family: $os;
+				position: relative !important;
+				z-index: 29 !important;
+			}
+			.text_3{
+				color: #fff;
+				font-family: $hee;
+			}
+			.video{
+				overflow: visible;
+				img{
+					&:hover{
+						animation-name: hvr-icon-push;
+						animation-duration: 0.3s;
+						animation-timing-function: linear;
+						animation-iteration-count: 1;
+					}
+				}
+			}
+		}
+		.tp-bullet{
+			border-radius: 50%;
+			background: #fff;
+			opacity: .35;
+			&.selected{
+				opacity: 1;
+			}
+		}
+	}
+	.social_icon{
+		position: absolute;
+		left: 75px;
+		z-index: 25;
+		bottom: 70px;
+		color: #fff;
+		ul{
+			li{
+				margin-bottom: 20px; 
+				a{
+					color: #fff;
+					font-size: 18px;
+				}
+				&:last-child{
+					margin-bottom: 0px;
+				}
+			}
+		}
+	}
+	.year{
+		position: absolute;
+		left: 75px;
+		z-index: 25;
+		top: 35%;
+		transform: translateY(-50%);
+		color: #fff;
+		a{
+			color: #fff;
+			font-family: $hee;
+			font-size: 14px;
+		}
+	}
+}
+
+.layout{
+	overflow: hidden;
+	position: relative;
+}
+//.line_1, .line_2, .line_3, .line_4{
+//	display: none !important; 
+//}
+.page_lines{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+	z-index: -1;
+    height: 100%;
+	.line{
+		position: absolute; 
+		width: 2px;
+		height: 50000px;
+		background: #222222;
+		& + .line{
+			left: auto;
+			right: 0px;
+		}
+	}
+	.col-lg-4{
+		&:first-child{
+			.line{
+				left: 0px;
+			}
+		}
+		&:nth-child(2){
+			.line{
+				left: 7.5px;
+			}
+		}
+	}
+	&.white_br{
+		.line{
+			background-color: #f8f8f8;
+		}
+	}
+}
+
+
+/* End Home Full Slider css
+============================================================================================ */

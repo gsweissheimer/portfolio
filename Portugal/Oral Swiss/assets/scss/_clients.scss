@@ -1,0 +1,133 @@
+/* Clients css
+============================================================================================ */
+.clients_area{
+	padding-top: 130px;
+	background: url(../img/teckture-bg.jpg) repeat scroll center center;
+	padding-bottom: 130px;
+	.main_title{
+		margin-bottom: 80px;
+	}
+}
+.test_item{
+	background: #2a2a2a;
+	border-top: 5px solid $baseColor;
+	padding: 80px 50px 40px 36px;
+	position: relative;
+	&:before{
+		content: "\7b";
+		font-family: 'ElegantIcons';
+		position: absolute;
+		right: 22px;
+		top: 20px;
+		color: $baseColor;
+		font-size: 60px;
+		line-height: 50px;
+	}	
+	h4{
+		font-size: 14px;
+		color: $pfont;
+		font-family: $hee;
+		font-weight: normal;
+		margin-bottom: 20px;
+		span{
+			color: #fff;
+			font-weight: 500;
+			font-size: 18px;
+		}
+	}
+	p{
+		font-size: 14px;
+		line-height: 24px;
+		color: $pfont;
+		font-family: $hee;
+		font-weight: normal;
+		margin-bottom: 0px;
+	}
+}
+.testimonials_slider{
+	.testimonials_slider{
+		position: absolute;
+		top: -129px;
+		right: 0px;
+	}
+	.owl-prev, .owl-next{
+		font-size: 36px;
+		color: $pfont;
+		@include transition;
+		cursor: pointer;
+		display: inline-block;
+		&:hover{
+			color: #fff;
+		}
+	}
+	.owl-prev{
+		margin-right: 45px;
+	}
+}
+
+.clients_slider{
+	padding-top: 100px;
+	.item{
+		text-align: center;
+		line-height: 55px;
+		cursor: pointer;
+		img{
+			width: auto;
+			display: inline-block;
+			vertical-align: middle;
+			line-height: 55px;
+			opacity: .6;
+			@include transition;
+		}
+		&:hover{
+			img{
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.white_cl{
+	&.clients_area{
+		background: url(../img/teckture-bg-2.png) repeat scroll;
+		background-color: #f9fafa;
+	}
+	.test_item{
+		background: #fff;
+		border-top: 5px solid $baseColor;
+		h4{
+			color: $gray;
+			font-weight: normal;
+			span{
+				color: $dip;
+				font-weight: 500;
+				font-size: 18px;
+			}
+		}
+		p{
+			color: $gray;
+		}
+	}
+	.clients_slider{
+		.item{
+			img{
+				opacity: .25;
+			}
+			&:hover{
+				img{
+					opacity: 1;
+				}
+			}
+		}
+	}
+	&.clients_area{
+		.owl-prev, .owl-next{
+			&:hover{
+				color: $dip;
+			}
+		}
+	}
+}
+
+/* End Clients css
+============================================================================================ */
