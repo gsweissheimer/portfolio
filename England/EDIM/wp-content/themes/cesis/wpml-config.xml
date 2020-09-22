@@ -1,0 +1,239 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">portfolio</custom-type>
+        <custom-type translate="1">staff</custom-type>
+        <custom-type translate="1">partners</custom-type>
+        <custom-type translate="1">careers</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">portfolio_category</taxonomy>
+        <taxonomy translate="1">portfolio_tag</taxonomy>
+        <taxonomy translate="1">staff_group</taxonomy>
+        <taxonomy translate="1">staff_tag</taxonomy>
+        <taxonomy translate="1">groups</taxonomy>
+        <taxonomy translate="1">career_category</taxonomy>
+    </taxonomies>
+    <custom-fields>
+        <custom-field action="copy">cesis_meta_body_background</custom-field>
+        <custom-field action="copy">cesis_meta_logo</custom-field>
+        <custom-field action="copy">cesis_meta_white_logo</custom-field>
+        <custom-field action="copy">cesis_meta_mobile_logo</custom-field>
+        <custom-field action="copy">cesis_meta_header_width</custom-field>
+        <custom-field action="copy">cesis_meta_transparent_header_bg_color</custom-field>
+        <custom-field action="copy">cesis_meta_transparent_header_border_color</custom-field>
+        <custom-field action="copy">cesis_meta_transparent_header_color</custom-field>
+        <custom-field action="copy">cesis_meta_transparent_header_active_color</custom-field>
+        <custom-field action="copy">cesis_meta_top_bar_sorter</custom-field>
+        <custom-field action="copy">cesis_meta_top_bar_menu_font</custom-field>
+        <custom-field action="copy">cesis_meta_header_border_color</custom-field>
+        <custom-field action="copy">cesis_meta_overlay_bg_color</custom-field>
+        <custom-field action="copy">cesis_meta_header_sub_border_color</custom-field>
+        <custom-field action="copy">cesis_meta_menu_font</custom-field>
+        <custom-field action="copy">cesis_meta_header_additional_type</custom-field>
+        <custom-field action="copy">cesis_meta_header_a_btn_font</custom-field>
+        <custom-field action="copy">cesis_meta_dropdown_bg</custom-field>
+        <custom-field action="copy">cesis_meta_dropdown_border</custom-field>
+        <custom-field action="copy">cesis_meta_dropdown_font</custom-field>
+        <custom-field action="copy">cesis_meta_dropdown_heading</custom-field>
+        <custom-field action="copy">cesis_meta_mobile_menu_font</custom-field>
+        <custom-field action="copy">cesis_meta_banner</custom-field>
+        <custom-field action="copy">cesis_meta_custom_title</custom-field>
+        <custom-field action="copy">cesis_meta_title</custom-field>
+        <custom-field action="copy">cesis_meta_title_width</custom-field>
+        <custom-field action="copy">cesis_meta_title_height</custom-field>
+        <custom-field action="copy">cesis_meta_title_minheight</custom-field>
+        <custom-field action="copy">cesis_meta_title_background</custom-field>
+        <custom-field action="copy">cesis_meta_title_overlay_color</custom-field>
+        <custom-field action="copy">cesis_meta_title_font</custom-field>
+        <custom-field action="copy">cesis_meta_breadcrumbs_font</custom-field>
+        <custom-field action="copy">cesis_meta_breadcrumbs_bg_color</custom-field>
+        <custom-field action="copy">cesis_meta_page_content_width</custom-field>
+        <custom-field action="copy">cesis_meta_sidebar_select</custom-field>
+        <custom-field action="copy">cesis_meta_sidebar_bottom_padding</custom-field>
+        <custom-field action="copy">cesis_meta_sidebar_heading_space</custom-field>
+        <custom-field action="copy">cesis_meta_sidebar_widget_font</custom-field>
+        <custom-field action="copy">cesis_meta_main_content_button_background</custom-field>
+        <custom-field action="copy">cesis_meta_main_content_button_border</custom-field>
+        <custom-field action="copy">cesis_meta_main_content_button_hover_background</custom-field>
+        <custom-field action="copy">cesis_meta_main_content_button_hover_border</custom-field>
+        <custom-field action="copy">cesis_meta_main_content_alt_button_background</custom-field>
+        <custom-field action="copy">cesis_meta_main_content_alt_button_border</custom-field>
+        <custom-field action="copy">cesis_meta_main_content_alt_button_hover_background</custom-field>
+        <custom-field action="copy">cesis_meta_main_content_alt_button_hover_border</custom-field>
+        <custom-field action="copy">cesis_meta_main_content_sub_button_background</custom-field>
+        <custom-field action="copy">cesis_meta_main_content_sub_button_border</custom-field>
+        <custom-field action="copy">cesis_meta_main_content_sub_button_hover_background</custom-field>
+        <custom-field action="copy">cesis_meta_main_content_sub_button_hover_border</custom-field>
+        <custom-field action="copy">cesis_meta_footer_width</custom-field>
+        <custom-field action="copy">cesis_meta_footer_top_padding</custom-field>
+        <custom-field action="copy">cesis_meta_footer_bottom_padding</custom-field>
+        <custom-field action="copy">cesis_meta_footer_widget_padding</custom-field>
+        <custom-field action="copy">cesis_meta_footer_heading_space</custom-field>
+        <custom-field action="copy">cesis_meta_footer_widget_font</custom-field>
+        <custom-field action="copy">cesis_meta_footer_bar_width</custom-field>
+        <custom-field action="copy">cesis_meta_footer_bar_height</custom-field>
+        <custom-field action="copy">cesis_meta_footer_bar_sorter</custom-field>
+        <custom-field action="copy">cesis_meta_footer_menu_font</custom-field>
+        <custom-field action="copy">cesis_meta_general_header</custom-field>
+        <custom-field action="copy">cesis_meta_header_shrink</custom-field>
+        <custom-field action="copy">cesis_meta_header_transparent</custom-field>
+        <custom-field action="copy">cesis_meta_block_content</custom-field>
+        <custom-field action="copy">cesis_meta_header_shadow</custom-field>
+        <custom-field action="copy">cesis_meta_page_custom_layout</custom-field>
+        <custom-field action="copy">cesis_meta_page_layout</custom-field>
+        <custom-field action="copy">cesis_meta_portfolio_content_width</custom-field>
+        <custom-field action="translate">cesis_post_description</custom-field>
+        <custom-field action="translate">cesis_partner_link</custom-field>
+        <custom-field action="copy">cesis_meta_blog_content_width</custom-field>
+        <custom-field action="copy">cesis_meta_blog_content_top_padding</custom-field>
+        <custom-field action="copy">cesis_meta_blog_content_bottom_padding</custom-field>
+        <custom-field action="copy">cesis_member_position</custom-field>
+        <custom-field action="copy">cesis_staff_social</custom-field>
+        <custom-field action="copy">cesis_meta_staff_content_width</custom-field>
+    </custom-fields>
+    <admin-texts>
+        <key name="cesis_data">
+            <key name="cesis_top_bar_phone"/>
+            <key name="cesis_top_bar_text"/>
+            <key name="cesis_header_a_btn_text"/>
+            <key name="cesis_header_a_btn_link"/>
+            <key name="cesis_footer_text_one"/>
+            <key name="cesis_footer_text_two"/>
+            <key name="cesis_footer_text_three"/>
+            <key name="cesis_page_block_content"/>
+            <key name="cesis_page_pf_block_content"/>
+            <key name="cesis_post_block_content"/>
+            <key name="cesis_post_pf_block_content"/>
+            <key name="cesis_portfolio_block_content"/>
+            <key name="cesis_portfolio_pf_block_content"/>
+            <key name="cesis_staff_block_content"/>
+            <key name="cesis_staff_pf_block_content"/>
+            <key name="cesis_career_block_content"/>
+            <key name="cesis_career_pf_block_content"/>
+            <key name="cesis_shop_block_content"/>
+            <key name="cesis_shop_pf_block_content"/>
+            <key name="cesis_buddypress_block_content"/>
+            <key name="cesis_buddypress_pf_block_content"/>
+            <key name="cesis_bbpress_block_content"/>
+            <key name="cesis_bbpress_pf_block_content"/>
+            <key name="cesis_post_a_block_content"/>
+            <key name="cesis_post_a_pf_block_content"/>
+            <key name="cesis_portfolio_a_block_content"/>
+            <key name="cesis_portfolio_a_pf_block_content"/>
+            <key name="cesis_staff_a_block_content"/>
+            <key name="cesis_staff_a_pf_block_content"/>
+            <key name="cesis_career_a_block_content"/>
+            <key name="cesis_career_a_pf_block_content"/>
+            <key name="cesis_product_archive_block_content"/>
+            <key name="cesis_product_archive_pf_block_content"/>
+            <key name="cesis_404_block_content"/>
+            <key name="cesis_404_pf_block_content"/>
+            <key name="cesis_search_block_content"/>
+            <key name="cesis_search_pf_block_content"/>
+            <key name="cesis_404_text"/>
+            <key name="cesis_404_subtext"/></key>
+    </admin-texts>
+    <shortcodes>
+        <shortcode>
+            <tag>cesis_gallery</tag>
+            <attributes>
+                <attribute>custom_links</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>cesis_icon</tag>
+            <attributes>
+                <attribute>link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>cesis_button</tag>
+            <attributes>
+                <attribute>link</attribute>
+                <attribute>button_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>cesis_icon_box</tag>
+            <attributes>
+                <attribute>heading</attribute>
+                <attribute>text</attribute>
+                <attribute>content</attribute>
+                <attribute>button_text</attribute>
+                <attribute>link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>cesis_icon_paragraph</tag>
+            <attributes>
+                <attribute>heading</attribute>
+                <attribute>text</attribute>
+                <attribute>content</attribute>
+                <attribute>button_text</attribute>
+                <attribute>link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>cesis_share_shortcode</tag>
+            <attributes>
+                <attribute>link</attribute>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>cesis_circular_progress_bar</tag>
+            <attributes>
+                <attribute>custom_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>cesis_circular_progress_bar</tag>
+            <attributes>
+                <attribute>label</attribute>
+                <attribute>label</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>cesis_flip_box</tag>
+            <attributes>
+                <attribute>heading</attribute>
+                <attribute>text</attribute>
+                <attribute>back_heading</attribute>
+                <attribute>back_text</attribute>
+                <attribute>button_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>cesis_price_tables</tag>
+            <attributes>
+                <attribute>values</attribute>
+                <attribute>title</attribute>
+                <attribute>description</attribute>
+                <attribute>table_description</attribute>
+                <attribute>features</attribute>
+                <attribute>btn_text</attribute>
+                <attribute>link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>cesis_testimonials</tag>
+            <attributes>
+                <attribute>author</attribute>
+                <attribute>t_content</attribute>
+                <attribute>a_info</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>cesis_timeline</tag>
+            <attributes>
+                <attribute type="area" encoding="urlencoded_json">events</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>cesis_icon_list</tag>
+            <attributes>
+                <attribute type="area" encoding="urlencoded_json">values</attribute>
+            </attributes>
+        </shortcode>
+    </shortcodes>
+</wpml-config>

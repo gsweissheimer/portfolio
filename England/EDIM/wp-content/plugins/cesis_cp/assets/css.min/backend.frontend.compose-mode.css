@@ -1,0 +1,4 @@
+body .vc_controls-column.vc_controls .vc_controls-bc {
+    bottom: 30px;
+}
+.compose-mode .vc_control-btn-append:before { content: none;}

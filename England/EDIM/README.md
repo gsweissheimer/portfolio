@@ -1,6 +1,15 @@
-# Working on it!
+# European Dental Implant Movement
+<br />
 
-I am reorganizing my portfolio, so this project will be available here.
+Project is a third version developed with Bootstrap by the clients choice. I work and coordenate four professionals and the project was planning and executed in 35 hours.
+<br />
+<ul>
+    <li>[Website](https://movementedim.com/)</li>
+    <li>[First Version](https://meid-center.com/)</li>
+</ul>
+<br />
+
+> EDIM – the European Dental Implant Movement – rehabilitates your oral health through dental implants and fixed prostheses.
 
 <br /><br />Thank you for your appreciation!
 

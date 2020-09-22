@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Icon/Button" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Background" fill="#E91A1A" fill-rule="nonzero" x="0" y="0" width="32" height="32" rx="5"></rect>
+        <g id="16px-button-2" transform="translate(8.000000, 9.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <polygon id="Shape" points="12.586 15 8.793 11.207 7 14 5 6 13 8 10.207 9.793 14 13.586"></polygon>
+            <path d="M4,10 L1,10 C0.447,10 0,9.552 0,9 L0,1 C0,0.448 0.447,0 1,0 L15,0 C15.553,0 16,0.448 16,1 L16,8 L14,8 L14,2 L2,2 L2,8 L4,8 L4,10 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

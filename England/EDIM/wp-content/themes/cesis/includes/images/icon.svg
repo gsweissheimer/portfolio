@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Icon/Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Background" fill="#226FFF" fill-rule="nonzero" x="0" y="0" width="32" height="32" rx="5"></rect>
+        <g id="16px-logo-envato" transform="translate(8.000000, 8.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M13,0.1 C13.7,0.5 16.7,6.7 14.2,12.2 C12.2,16.6 7.1,16.6 4.5,15 C2.2,13.7 -1.2,9.6 2.6,4.5 C2.7,4.3 3.1,4.3 3,4.9 C2.9,5.3 2.4,8.3 3.4,9.6 C3.9,10.2 4,9.8 4,9.8 C4,9.8 3.9,5.4 7.3,2.1 C9.4,0.1 12.4,-0.2 13,0.1 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

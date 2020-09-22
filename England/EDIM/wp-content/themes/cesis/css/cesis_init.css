@@ -1,0 +1,121 @@
+/**
+
+Init
+
+**/
+
+.comments-layout-one .comments-title span { float: left !important; padding-right: 10px}
+.footer_main .cesis_container { padding-top: 0px !important; padding-bottom:0px !important}
+.page .article_ctn, .page .sidebar_ctn,body.search .article_ctn, body.search .sidebar_ctn,body.archive .sidebar_ctn,body.archive  .article_ctn,.error404 .article_ctn, .error404 .sidebar_ctn { padding-top: 60px !important; padding-bottom:60px !important}
+.cesis_blog_style_1 .cesis_blog_m_thumbnail{border-radius: 8px;}
+.cesis_isotope.col_1 .cesis_iso_item:first-child {
+    padding-top: 5px !important;
+}
+.pagination_split_post > span {
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    border: 1px solid #ebebeb;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.pagination_split_post > span, .pagination_split_post a {
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.pagination_split_post > span{
+  background-color:#3a78ff;
+  border-color:#3a78ff;
+  color: #fff;}
+.pagination_split_post a {
+  color: #6d7783;
+  border: 1px solid #edf0f7;
+}.pagination_split_post a:hover {
+  background-color:#3a78ff;
+  border-color:#3a78ff;
+  color: #fff;
+}
+.widget_nav_menu .sub-menu a {
+    margin-left: 30px;
+}
+.widget_nav_menu .sub-menu .sub-menu a {
+    margin-left: 40px;
+}
+.widget_nav_menu .sub-menu .sub-menu .sub-menu a {
+    margin-left: 50px;
+}
+.widget_nav_menu .sub-menu .sub-menu .sub-menu .sub-menu a {
+    margin-left: 60px;
+}
+.widget_nav_menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu a {
+    margin-left: 70px;
+}
+.widget_nav_menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu a {
+    margin-left: 80px;
+}
+.widget_nav_menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu a {
+    margin-left: 90px;
+}
+.widget_nav_menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu a {
+    margin-left: 100px;
+}
+.widget_nav_menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu a {
+    margin-left: 110px;
+}
+.widget_nav_menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu a {
+    margin-left: 120px;
+}
+.widget_nav_menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu a {
+    margin-left: 130px;
+}
+
+.widget_nav_menu li a:before {
+      content: "\f105";
+    font-family: "tticons";
+    position: absolute;
+    left: 0;color: #3a78ff;
+  }
+.widget_nav_menu li a {
+    line-height: 60px;
+    border-bottom: 1px solid #ebebeb;
+    display: block;
+    margin-top: -1px;
+     padding-left: 20px;
+     position: relative;
+}
+ol {
+    list-style: decimal;
+    margin: 0 0 10px 10px;
+}
+ul.disc, .entry-content ul  {
+    margin: 0 0 10px 10px;
+}
+.title_layout_one .title_ctn {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+body.single-post .page_title_container {
+    min-height: 100px !important;
+    height: auto !important;
+
+}
+.footer_widget .cesis_f_widget { padding:60px 0 !important}
+.main-menu .sm-nowrap > li > a {
+    white-space: normal !important;
+}

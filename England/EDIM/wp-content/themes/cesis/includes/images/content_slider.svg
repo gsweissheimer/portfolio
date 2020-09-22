@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Icon/Content-Slider" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Background" fill="#743BFC" fill-rule="nonzero" x="0" y="0" width="32" height="32" rx="5"></rect>
+        <path d="M23,18 L9,18 C8.448,18 8,17.552 8,17 L8,9 C8,8.448 8.448,8 9,8 L23,8 C23.552,8 24,8.448 24,9 L24,17 C24,17.552 23.552,18 23,18 Z M16,24 C14.8954305,24 14,23.1045695 14,22 C14,20.8954305 14.8954305,20 16,20 C17.1045695,20 18,20.8954305 18,22 C18,23.1045695 17.1045695,24 16,24 Z M11,23 C10.4477153,23 10,22.5522847 10,22 C10,21.4477153 10.4477153,21 11,21 C11.5522847,21 12,21.4477153 12,22 C12,22.5522847 11.5522847,23 11,23 Z M21,23 C20.4477153,23 20,22.5522847 20,22 C20,21.4477153 20.4477153,21 21,21 C21.5522847,21 22,21.4477153 22,22 C22,22.5522847 21.5522847,23 21,23 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>
