@@ -3,10 +3,9 @@
 
 Project is a second version developed with Bootstrap by the clients choice. I work and coordenate four professionals and the project was planning and executed in 35 hours.
 <br />
-<ul>
-    <li>[Website](https://meidmovement.fr/)</li>
-    <li>[First Version](https://meid-center.com/)</li>
-</ul>
+
+* [Website](https://meidmovement.fr/)<br />
+* [First Version](https://meid-center.com/)<br />
 <br />
 
 > MEID – the European Dental Implant Movement – rehabilitates your oral health through dental implants and fixed prostheses.
