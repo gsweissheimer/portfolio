@@ -2,7 +2,7 @@
 
 ### Welcome to my projects!
 
-You can chose by websites or mobile applications. Inside each directory represents the country where the project is running.
+Inside each directory represents the country where the project is running.
 
 My name is Guilherme Weissheimer and I graduated in Marketing and with **7 years working as a programmer**, I specialized in the development of web and mobile projects, using mostly JavaScript and PHP technologies together with HTML and CSS to create the most diverse types of projects, Institutional sites, Landing Pages, Content Managers and whatever the client needs.
 
