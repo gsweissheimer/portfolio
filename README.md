@@ -1,8 +1,8 @@
 # Portfolio
 
-### Welcome to my projects portifolio!
+### Welcome to my projects!
 
-Each directory represents the country where the project is running.
+You can chose by websites or mobile applications. Inside each directory represents the country where the project is running.
 
 My name is Guilherme Weissheimer and I graduated in Marketing and with **7 years working as a programmer**, I specialized in the development of web and mobile projects, using mostly JavaScript and PHP technologies together with HTML and CSS to create the most diverse types of projects, Institutional sites, Landing Pages, Content Managers and whatever the client needs.
 
@@ -12,12 +12,9 @@ In addition to my native language, Portuguese, I am **fluent in English** and ha
 
 I work as a service provider, PJ, and make myself available if they need to plan and / or execute web and mobile projects.
 
+<br /><br />Thank you for your appreciation!
 
-
-Thank you for your appreciation!Thank you for your appre!
-
-
-**Weissheimer, Guilherme.**<br />
-**+55 16 99751 5525**<br />
-**guilherme@arborweb.com.br**<br />
-[Linkedin](https://www.linkedin.com/in/guilherme-weissheimer-400868131/?locale=en_US)
+Weissheimer, Guilherme.<br />
++55 16 99751 5525<br />
+guilherme@arborweb.com.br<br />
+[Linkedin Profile](https://www.linkedin.com/in/guilherme-weissheimer-400868131/?locale=en_US)
